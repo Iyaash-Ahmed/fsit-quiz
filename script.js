@@ -89,7 +89,6 @@ function renderHome() {
     const btn = document.createElement('button');
     btn.className = 'card';
     btn.innerHTML = `
-      <span class="icon">${subj.icon || '📘'}</span>
       <h2>${subj.name}</h2>
       <p class="blurb">${subj.blurb || ''}</p>
       <span class="meta">
@@ -234,19 +233,18 @@ function finishAttempt() {
 
   el('resultScore').textContent = `${score} / ${total}`;
   el('resultPct').textContent = `${pct}%`;
-  el('resultSubject').textContent = `📘 ${current.subject.name}`;
-  el('resultTime').textContent = `⏱ ${fmtTime(elapsed)}`;
+  el('resultSubject').textContent = current.subject.name;
+  el('resultTime').textContent = `Time: ${fmtTime(elapsed)}`;
 
   const best = getBest(current.subject.id);
-  el('resultBest').textContent = isNewBest ? `🏆 New best!` : `🏆 Best: ${best}%`;
+  el('resultBest').textContent = isNewBest ? `New best!` : `Best: ${best}%`;
 
-  // emoji + title by band
-  let emoji = '💪', title = 'Keep practising!';
-  if (pct === 100) { emoji = '🏆'; title = 'Perfect score!'; }
-  else if (pct >= 80) { emoji = '🎉'; title = 'Excellent work!'; }
-  else if (pct >= 60) { emoji = '👍'; title = 'Good effort!'; }
-  else if (pct >= 40) { emoji = '📚'; title = 'Getting there…'; }
-  el('resultEmoji').textContent = emoji;
+  // title by band
+  let title = 'Keep practising!';
+  if (pct === 100) title = 'Perfect score!';
+  else if (pct >= 80) title = 'Excellent work!';
+  else if (pct >= 60) title = 'Good effort!';
+  else if (pct >= 40) title = 'Getting there…';
   el('resultTitle').textContent = title;
 
   // review of wrong answers
@@ -255,7 +253,7 @@ function finishAttempt() {
   list.innerHTML = '';
   if (current.wrong.length === 0) {
     heading.hidden = true;
-    list.innerHTML = '<p class="all-correct">✅ You answered every question correctly — nothing to review!</p>';
+    list.innerHTML = '<p class="all-correct">You answered every question correctly — nothing to review!</p>';
   } else {
     heading.hidden = false;
     heading.textContent = `Review — ${current.wrong.length} to revisit`;

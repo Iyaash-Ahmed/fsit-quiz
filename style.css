@@ -86,8 +86,7 @@ body {
   border-color: var(--primary);
   outline: none;
 }
-.card .icon { font-size: 2.4rem; line-height: 1; }
-.card h2 { margin: 6px 0 0; font-size: 1.22rem; }
+.card h2 { margin: 0; font-size: 1.22rem; }
 .card .blurb { color: var(--text-soft); font-size: .92rem; margin: 0; flex: 1; }
 .card .meta { display: flex; justify-content: space-between; align-items: center; margin-top: 10px; font-size: .82rem; color: var(--text-soft); }
 .card .count-badge { background: color-mix(in srgb, var(--primary) 14%, transparent); color: var(--primary); padding: 3px 10px; border-radius: 999px; font-weight: 600; }
@@ -177,8 +176,7 @@ body {
   border-radius: var(--radius); padding: 34px 26px; box-shadow: var(--shadow); text-align: center;
   margin-top: 16px;
 }
-.result-emoji { font-size: 3.4rem; }
-.result-card h1 { margin: 6px 0 16px; font-size: 1.6rem; }
+.result-card h1 { margin: 0 0 16px; font-size: 1.6rem; }
 .result-score { display: flex; flex-direction: column; align-items: center; gap: 2px; margin-bottom: 14px; }
 .result-score .big { font-size: 2.4rem; font-weight: 800; }
 .result-score .pct { font-size: 1.1rem; color: var(--text-soft); font-weight: 600; }
