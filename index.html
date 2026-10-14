@@ -14,7 +14,7 @@
   <main id="view-home" class="view">
     <header class="home-head">
       <h1>FSIT 2026 Exam Practice</h1>
-      <p class="sub">Pick a subject to start. Each attempt pulls <strong id="qCountLabel">20</strong> random questions and shuffles the options. Instant feedback with explanations.</p>
+      <p class="sub">Pick a subject, choose how many questions, and go. Every attempt is randomised with shuffled options and instant explanations.</p>
     </header>
     <section id="cards" class="cards" aria-label="Subjects"></section>
     <footer class="home-foot">
@@ -22,10 +22,28 @@
     </footer>
   </main>
 
+  <!-- ===================== SETUP ===================== -->
+  <main id="view-setup" class="view" hidden>
+    <button class="link-btn" id="setupBack">&larr; Subjects</button>
+    <section class="setup">
+      <h1 id="setupTitle"></h1>
+      <p class="setup-blurb" id="setupBlurb"></p>
+
+      <h3 class="setup-label">How many questions?</h3>
+      <div class="chips" id="lengthChips"></div>
+
+      <div class="setup-actions">
+        <button class="btn primary" id="startQuizBtn">Start quiz</button>
+        <button class="btn ghost" id="studyBtn">Study mode</button>
+      </div>
+      <p class="setup-note" id="setupNote"></p>
+    </section>
+  </main>
+
   <!-- ===================== QUIZ ===================== -->
   <main id="view-quiz" class="view" hidden>
     <div class="quiz-top">
-      <button class="link-btn" id="quitBtn" title="Back to subjects">&larr; Subjects</button>
+      <button class="link-btn" id="quitBtn" title="Back to subjects">&larr; Quit</button>
       <span class="quiz-subject" id="quizSubject"></span>
       <span class="timer" id="timer" aria-live="off">00:00</span>
     </div>
@@ -48,8 +66,34 @@
     </section>
 
     <div class="quiz-actions">
+      <span class="kbd-hint">Tip: press <kbd>1</kbd>–<kbd>4</kbd> to answer, <kbd>Enter</kbd> for next</span>
       <button class="btn primary" id="nextBtn" hidden>Next &rarr;</button>
     </div>
+  </main>
+
+  <!-- ===================== STUDY ===================== -->
+  <main id="view-study" class="view" hidden>
+    <div class="quiz-top">
+      <button class="link-btn" id="studyBack">&larr; Back</button>
+      <span class="quiz-subject" id="studyTitle"></span>
+      <span class="timer" id="studyCounter">1 / 1</span>
+    </div>
+
+    <section class="qcard">
+      <h2 class="question" id="studyQuestion"></h2>
+      <ul class="options" id="studyOptions"></ul>
+      <div class="explain" id="studyReveal" hidden>
+        <span class="explain-label ok">Answer</span>
+        <p id="studyExplain"></p>
+      </div>
+    </section>
+
+    <div class="study-actions">
+      <button class="btn ghost" id="studyPrev">&larr; Prev</button>
+      <button class="btn primary" id="studyShow">Show answer</button>
+      <button class="btn ghost" id="studyNext">Next &rarr;</button>
+    </div>
+    <p class="kbd-hint center">Tip: <kbd>&larr;</kbd> / <kbd>&rarr;</kbd> to move, <kbd>Enter</kbd> to reveal</p>
   </main>
 
   <!-- ===================== RESULT ===================== -->
@@ -68,6 +112,7 @@
 
       <div class="result-actions">
         <button class="btn primary" id="retryBtn">Retry</button>
+        <button class="btn warn" id="retryWrongBtn" hidden>Retry wrong only</button>
         <button class="btn ghost" id="backBtn">Back to subjects</button>
       </div>
 

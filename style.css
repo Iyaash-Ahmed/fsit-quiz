@@ -156,7 +156,43 @@ body {
 .explain-label.no { color: var(--wrong); }
 .explain p { margin: 0; color: var(--text-soft); }
 
-.quiz-actions { display: flex; justify-content: flex-end; margin-top: 20px; }
+.quiz-actions { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 20px; }
+.kbd-hint { color: var(--text-soft); font-size: .82rem; }
+.kbd-hint.center { text-align: center; display: block; margin-top: 14px; }
+kbd {
+  font-family: inherit; font-size: .78rem; background: var(--bg); border: 1px solid var(--border);
+  border-radius: 6px; padding: 1px 6px; color: var(--text);
+}
+
+/* ===== Mixed card accent ===== */
+.card.accent { border-color: color-mix(in srgb, var(--accent) 55%, var(--border)); background: linear-gradient(160deg, color-mix(in srgb, var(--accent) 10%, var(--bg-elev)), var(--bg-elev)); }
+.card.accent:hover, .card.accent:focus-visible { border-color: var(--accent); }
+
+/* ===== Setup screen ===== */
+.setup { background: var(--bg-elev); border: 1px solid var(--border); border-radius: var(--radius); padding: 30px 26px; box-shadow: var(--shadow); margin-top: 8px; }
+.setup h1 { margin: 0 0 8px; font-size: clamp(1.4rem, 3.5vw, 1.9rem); }
+.setup-blurb { color: var(--text-soft); margin: 0 0 24px; }
+.setup-label { font-size: 1rem; margin: 0 0 12px; }
+.chips { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 26px; }
+.chip {
+  font: inherit; font-weight: 600; cursor: pointer; color: var(--text);
+  background: var(--bg); border: 1.5px solid var(--border); border-radius: 10px; padding: 9px 18px;
+  transition: border-color .12s ease, background .12s ease;
+}
+.chip:hover { border-color: var(--primary); }
+.chip.active { background: var(--primary); color: var(--primary-ink); border-color: var(--primary); }
+.setup-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.setup-note { color: var(--text-soft); font-size: .88rem; margin: 16px 0 0; }
+
+/* ===== Study mode ===== */
+.study-actions { display: flex; gap: 12px; justify-content: space-between; margin-top: 20px; }
+.study-actions .btn { flex: 1; }
+.option.static { cursor: default; }
+.option.static:hover { border-color: var(--border); }
+
+/* ===== Warn button (retry wrong) ===== */
+.btn.warn { background: transparent; color: var(--wrong); border-color: color-mix(in srgb, var(--wrong) 45%, var(--border)); }
+.btn.warn:hover { border-color: var(--wrong); background: var(--wrong-bg); }
 
 /* ===== Buttons ===== */
 .btn {
