@@ -1,0 +1,332 @@
+{
+  "id": "dwdm",
+  "name": "Data Warehousing & Data Mining",
+  "icon": "🗄️",
+  "blurb": "Data warehouses, KDD, OLAP & data cubes, hardware/operational design",
+  "questions": [
+    {
+      "q": "According to the notes, a data warehouse is best described as:",
+      "options": ["A tool for processing daily transactions in real time", "A pool of data produced to support decision-making and a physical repository of standardized, cleansed data", "A single flat file holding raw unprocessed records", "A program that issues search engine queries"],
+      "answer": 1,
+      "explanation": "Unit 1 defines a data warehouse as a pool of data to support decision-making and a physical repository of enterprise-wide, cleansed, standardized data."
+    },
+    {
+      "q": "Which set lists characteristics of a data warehouse given in the notes?",
+      "options": ["Volatile, isolated, transaction-oriented, real-time", "Subject-oriented, integrated, time-variant, non-volatile", "Unstructured, temporary, denormalized, single-user", "Flat, encrypted, write-only, schema-less"],
+      "answer": 1,
+      "explanation": "The notes list subject-oriented, integrated, time-variant and non-volatile among the key data warehouse characteristics."
+    },
+    {
+      "q": "Which of the following is NOT listed as a function involved in a data warehouse?",
+      "options": ["Data Extraction", "Data Cleaning", "Data Encryption", "Data Loading"],
+      "answer": 2,
+      "explanation": "The listed functions are Extraction, Cleaning, Integration, Transformation, Loading and Refreshing — encryption is not among them."
+    },
+    {
+      "q": "In the Top-Down development methodology (Inmon), data is stored as:",
+      "options": ["A denormalized star schema built in data marts first", "A normalized (up to 3NF) repository holding atomic, lowest-granularity data", "An unstructured collection of flat files", "A temporary cache that is cleared daily"],
+      "answer": 1,
+      "explanation": "Top-Down stores validated data in a normalized (up to 3NF) warehouse holding atomic, lowest-level data from which data marts are built."
+    },
+    {
+      "q": "The Bottom-Up development methodology (Kimball) is characterised by:",
+      "options": ["Building the full normalized warehouse before any data marts", "Creating data marts first using a denormalized dimensional (star) schema, then integrating them", "Avoiding data marts entirely", "Using only external flat files with no schema"],
+      "answer": 1,
+      "explanation": "Bottom-Up creates data marts first with a denormalized dimensional star schema, a business-driven approach, then integrates them."
+    },
+    {
+      "q": "A stated disadvantage of the Top-Down design approach is that it:",
+      "options": ["Produces inconsistent data marts", "Is inflexible to changing departmental needs and has high implementation cost", "Cannot build data marts at all", "Generates documents too quickly"],
+      "answer": 1,
+      "explanation": "The notes list top-down's disadvantages as inflexibility to changing departmental needs and high project cost."
+    },
+    {
+      "q": "An advantage of the Bottom-Up approach is that:",
+      "options": ["It gives the most consistent dimensional view", "Documents/reports can be generated quickly and the warehouse is easily extended with new data marts", "It has the highest design and maintenance cost", "It eliminates the need for a staging area"],
+      "answer": 1,
+      "explanation": "Bottom-Up lets reports be generated quickly and the warehouse be extended by simply adding and integrating new data marts."
+    },
+    {
+      "q": "How do the notes distinguish 'data' from information?",
+      "options": ["Data already carries meaning on its own", "Data are raw facts and figures that have no meaning until given context and processed", "Data is always numeric while information is always text", "Data and information are identical terms"],
+      "answer": 1,
+      "explanation": "Unit 1 states data are raw facts/figures with no meaning until given a CONTEXT and PROCESSED into usable form."
+    },
+    {
+      "q": "Which activity is given as an example of what data mining is NOT?",
+      "options": ["Discovering hidden purchasing patterns", "Looking up a phone number in a directory or simple query processing", "Detecting credit-card fraud", "Finding customer-retention patterns"],
+      "answer": 1,
+      "explanation": "The notes say data mining is NOT looking up a phone number, a search query, query processing, or expert/statistical programs."
+    },
+    {
+      "q": "Which is listed as an application of data mining in Unit 1?",
+      "options": ["Printing a document", "Market Analysis, Fraud Detection and Customer Retention", "Formatting a spreadsheet", "Backing up a hard drive"],
+      "answer": 1,
+      "explanation": "Unit 1 lists Market Analysis, Fraud Detection, Customer Retention, Production Control and Science Exploration as applications."
+    },
+    {
+      "q": "The three steps involved in data preprocessing are:",
+      "options": ["Loading, indexing, archiving", "Data Cleaning, Data Transformation, Data Reduction", "Encryption, compression, backup", "Mining, reporting, visualization"],
+      "answer": 1,
+      "explanation": "Data preprocessing involves Data Cleaning, Data Transformation and Data Reduction according to Unit 1."
+    },
+    {
+      "q": "A concept hierarchy reduces data size by:",
+      "options": ["Deleting all numerical attributes", "Replacing low-level concepts (e.g. age 43) with high-level concepts (e.g. 'middle age')", "Encrypting the raw values", "Doubling the number of attributes"],
+      "answer": 1,
+      "explanation": "Concept hierarchies collect and replace low-level concepts such as the age 43 with higher-level categorical concepts like 'middle age' or 'Senior'."
+    },
+    {
+      "q": "Why is data preprocessing described as important?",
+      "options": ["Because real-world data is clean and ready to use", "Because real-world data is dirty — incomplete, noisy and inconsistent — and quality mining needs quality data", "Because it increases storage costs", "Because it removes the need for a data warehouse"],
+      "answer": 1,
+      "explanation": "The notes stress that real-world data is dirty (incomplete, noisy, inconsistent) and there is no quality mining result without quality data."
+    },
+    {
+      "q": "In data mining, KDD stands for:",
+      "options": ["Knowledge Driven Database", "Knowledge Discovery in Databases", "Key Data Distribution", "Known Data Dimensions"],
+      "answer": 1,
+      "explanation": "KDD stands for Knowledge Discovery in Databases, the broad procedure of discovering knowledge in data."
+    },
+    {
+      "q": "The KDD process described in Unit 2 comprises how many steps?",
+      "options": ["Three steps", "Nine steps", "Five steps", "Twelve steps"],
+      "answer": 1,
+      "explanation": "Unit 2 describes the knowledge discovery process as iterative and interactive, comprising nine steps."
+    },
+    {
+      "q": "What is the initial/preliminary step of the KDD process?",
+      "options": ["Using the discovered knowledge", "Building up an understanding of the application domain", "Selecting the data mining algorithm", "Evaluation of patterns"],
+      "answer": 1,
+      "explanation": "The first managerial step is building up an understanding of the application domain and defining the end-user's objectives."
+    },
+    {
+      "q": "What is the relationship between data mining and KDD in the notes?",
+      "options": ["Data mining and KDD are unrelated", "Data mining is the root of the KDD procedure", "KDD is a single step inside data mining only", "Data mining replaces KDD entirely"],
+      "answer": 1,
+      "explanation": "The notes state Data Mining is the root of the KDD procedure, inferring algorithms that investigate data and find patterns."
+    },
+    {
+      "q": "A decision tree is described as a structure consisting of:",
+      "options": ["Only a single root node", "Nodes, branches and leaf (terminal) nodes forming a directed acyclic graph (DAG)", "Rows and columns of a relational table", "A linked list of records"],
+      "answer": 1,
+      "explanation": "Decision trees consist of nodes, branches and leaf nodes interconnected as a directed acyclic graph (DAG)."
+    },
+    {
+      "q": "In a decision tree, a leaf node:",
+      "options": ["Performs a logical test on attributes", "Has no children and corresponds to a class", "Always has two or more children", "Stores the training algorithm"],
+      "answer": 1,
+      "explanation": "A leaf node has no children and corresponds to a class, while internal nodes perform tests on attributes."
+    },
+    {
+      "q": "Classification is described as a two-step process consisting of:",
+      "options": ["Loading and refreshing", "A Learning (Training) step that builds the model and a Classification step that predicts and tests accuracy", "Encryption and decryption", "Sorting and hashing"],
+      "answer": 1,
+      "explanation": "Classification has a Learning/Training step (build the classifier) and a Classification step (predict class labels and estimate accuracy on test data)."
+    },
+    {
+      "q": "An attribute that takes only two values such as Yes/No or True/False is called:",
+      "options": ["Ordinal", "Binary", "Continuous", "Nominal"],
+      "answer": 1,
+      "explanation": "A binary attribute possesses only two values (e.g. True/False, Yes/No)."
+    },
+    {
+      "q": "Student grades A, B, C, D are given as an example of which attribute type?",
+      "options": ["Binary", "Ordinal (values with a meaningful order)", "Continuous", "Discrete"],
+      "answer": 1,
+      "explanation": "Grades A, B, C, D are ordinal — nominal-style values that have a meaningful order."
+    },
+    {
+      "q": "Which attribute type is described as having an infinite number of values and being of float type?",
+      "options": ["Discrete", "Continuous", "Binary", "Nominal"],
+      "answer": 1,
+      "explanation": "A continuous attribute may have an infinite number of values and is of float type (e.g. weights 50, 51, 52...)."
+    },
+    {
+      "q": "The Naive Bayes classifier (e.g. detecting spam) is given as an example of which classifier type?",
+      "options": ["Discriminative", "Generative", "Instance-based only", "Clustering"],
+      "answer": 1,
+      "explanation": "Naive Bayes is a generative classifier — it models the distribution of individual classes; Logistic Regression is the discriminative example."
+    },
+    {
+      "q": "In association rule learning, an 'if A then B' rule names A and B respectively as the:",
+      "options": ["Consequent and antecedent", "Antecedent and consequent", "Support and confidence", "Node and leaf"],
+      "answer": 1,
+      "explanation": "In 'if A then B', the If element A is the antecedent and the then element B is the consequent."
+    },
+    {
+      "q": "In association rule mining, Support is defined as:",
+      "options": ["How often a rule is found true when X occurs", "The frequency of an itemset — how often it appears in the dataset (fraction of transactions containing it)", "The ratio of observed to expected support", "The depth of the search tree"],
+      "answer": 1,
+      "explanation": "Support is the frequency of an item/itemset — the fraction of transactions that contain the itemset."
+    },
+    {
+      "q": "A Lift value equal to 1 between two itemsets means:",
+      "options": ["The itemsets are strongly dependent", "The occurrence of antecedent and consequent are independent of each other", "One item is a substitute for the other", "The rule is invalid"],
+      "answer": 1,
+      "explanation": "Lift = 1 means antecedent and consequent are independent; Lift > 1 means dependent; Lift < 1 means one is a substitute."
+    },
+    {
+      "q": "The three association-rule learning algorithms named in the notes are:",
+      "options": ["KNN, SOM, LVQ", "Apriori, Eclat and F-P Growth", "SMP, MPP, HOLAP", "ROLAP, MOLAP, HOLAP"],
+      "answer": 1,
+      "explanation": "Association rule learning is divided into the Apriori, Eclat and F-P Growth algorithms."
+    },
+    {
+      "q": "The Apriori algorithm calculates itemsets efficiently using:",
+      "options": ["Depth-first search and a cell tree", "Breadth-first search and a Hash Tree", "Random sampling only", "Genetic crossover"],
+      "answer": 1,
+      "explanation": "Apriori uses a breadth-first search and a Hash Tree to calculate itemsets efficiently for market-basket analysis."
+    },
+    {
+      "q": "The Eclat algorithm (Equivalence Class Transformation) differs from Apriori in that it:",
+      "options": ["Uses breadth-first search and is slower", "Uses a depth-first search and performs faster execution than Apriori", "Cannot handle transaction databases", "Requires a normalized warehouse"],
+      "answer": 1,
+      "explanation": "Eclat uses a depth-first search technique and executes faster than the Apriori algorithm."
+    },
+    {
+      "q": "The F-P Growth algorithm is described as:",
+      "options": ["A clustering method with no rules", "The Frequent Pattern algorithm, an improved version of Apriori that represents the database as a tree", "A hardware architecture", "A backup strategy"],
+      "answer": 1,
+      "explanation": "F-P Growth (Frequent Pattern) is an improved version of Apriori that represents the database as a frequent-pattern tree."
+    },
+    {
+      "q": "Instance-based learning (e.g. K-Nearest Neighbour) is also known as:",
+      "options": ["Eager learning", "Memory-based or lazy learning", "Supervised regression", "Genetic optimization"],
+      "answer": 1,
+      "explanation": "Instance-based learning builds hypotheses from stored training instances and is called memory-based or lazy learning; worst-case time is O(n)."
+    },
+    {
+      "q": "Genetic algorithms are based on the idea of:",
+      "options": ["Query optimization in SQL", "Natural selection and genetics — 'survival of the fittest' across generations", "Bitmap indexing", "Hot and cold backups"],
+      "answer": 1,
+      "explanation": "Genetic algorithms simulate natural selection/genetics — survival of the fittest among individuals of successive generations, each encoded like a chromosome."
+    },
+    {
+      "q": "Clustering differs from classification because clustering:",
+      "options": ["Requires known class labels in the training data", "Analyzes objects WITHOUT a predefined class label, maximizing intra-class and minimizing inter-class similarity", "Can only be applied to a single attribute", "Always produces a decision tree"],
+      "answer": 1,
+      "explanation": "Clustering analyses objects without an identified class label, grouping so that intra-cluster similarity is high and inter-cluster similarity is low."
+    },
+    {
+      "q": "The three data warehouse process managers are:",
+      "options": ["Load manager, Warehouse manager, Query manager", "CPU manager, Disk manager, Memory manager", "ROLAP, MOLAP, HOLAP managers", "Unit, Integration, System managers"],
+      "answer": 0,
+      "explanation": "Process managers maintaining data flow are the Load manager, Warehouse manager and Query manager."
+    },
+    {
+      "q": "The Load Manager is responsible for:",
+      "options": ["Directing queries to suitable tables", "Extracting data from source systems and fast-loading it, performing simple transformations", "Creating indexes and aggregations", "Running unit tests"],
+      "answer": 1,
+      "explanation": "The Load Manager extracts data from source systems, fast-loads it into a temporary store and performs simple transformations."
+    },
+    {
+      "q": "The Query Manager's main responsibility is to:",
+      "options": ["Back up the warehouse", "Direct queries to suitable tables and schedule their execution to speed up response", "Encrypt the network traffic", "Build the ETL pipeline"],
+      "answer": 1,
+      "explanation": "The Query Manager directs queries to appropriate tables and schedules their execution, speeding the request/response process."
+    },
+    {
+      "q": "In the staging area, the ETL acronym stands for:",
+      "options": ["Encrypt, Transfer, Log", "Extract, Transform, Load", "Evaluate, Test, Launch", "Export, Transmit, Lock"],
+      "answer": 1,
+      "explanation": "ETL = Extract (from source), Transform (into standard format), Load (into the warehouse)."
+    },
+    {
+      "q": "The three OLAP server architectures described are:",
+      "options": ["SMP, MPP, Cluster", "ROLAP, MOLAP and HOLAP", "Apriori, Eclat, FP-Growth", "Cold, Hot, Online"],
+      "answer": 1,
+      "explanation": "Unit 3 lists Relational OLAP (ROLAP), Multidimensional OLAP (MOLAP) and Hybrid OLAP (HOLAP)."
+    },
+    {
+      "q": "A Multidimensional (MOLAP) data cube is noted to:",
+      "options": ["Store data only in relational tables", "Pattern the cube as a multidimensional array giving better performance, but it grows sparser as dimensions increase", "Never support indexing", "Be limited to two dimensions"],
+      "answer": 1,
+      "explanation": "MOLAP patterns the cube as a multidimensional array with better performance via direct indexing, but the cube gets sparser as dimensions grow."
+    },
+    {
+      "q": "A data cube is defined in the notes as:",
+      "options": ["A single two-dimensional table", "A three-dimensional (or higher) set of values used to analyze aggregated information from multiple points of view", "A backup tape format", "A type of decision tree"],
+      "answer": 1,
+      "explanation": "A data cube is a 3D (or higher) set of values, an abstraction used to analyze aggregated information from several perspectives."
+    },
+    {
+      "q": "Which cube-computation method CANNOT perform Apriori pruning (no iceberg optimization)?",
+      "options": ["Bottom-Up Computation (BUC)", "Multi-Way Array Aggregation", "H-Cubing", "Star-Cubing"],
+      "answer": 1,
+      "explanation": "Multi-Way Array Aggregation does simultaneous aggregation but cannot do Apriori pruning / iceberg optimization."
+    },
+    {
+      "q": "In Bottom-Up Computation (BUC), setting minsup = 1 results in:",
+      "options": ["No cube being computed", "Computing the full CUBE", "Only the apex cuboid", "An error"],
+      "answer": 1,
+      "explanation": "BUC facilitates iceberg pruning; if minsup = 1 it computes the full CUBE."
+    },
+    {
+      "q": "Attribute-Oriented Induction performs generalization by:",
+      "options": ["Encrypting attributes", "Attribute removal or attribute generalization, then merging identical generalized tuples and accumulating counts", "Random sampling of rows only", "Building bitmap indexes"],
+      "answer": 1,
+      "explanation": "Attribute-Oriented Induction generalizes via attribute removal or attribute generalization, then aggregates identical generalized tuples with their counts."
+    },
+    {
+      "q": "The term 'Data Warehouse' was first coined by:",
+      "options": ["Ralph Kimball in 1995", "Bill Inmon in 1990", "Jiawei Han in 2007", "R. Agrawal in 1993"],
+      "answer": 1,
+      "explanation": "Unit 4 states the term 'Data Warehouse' was first coined by Bill Inmon in 1990."
+    },
+    {
+      "q": "A Symmetric Multi-Processing (SMP) machine is described as:",
+      "options": ["Loosely coupled nodes each with its own memory and disk", "A set of tightly coupled CPUs that share memory and disk (shared-everything)", "A single-CPU desktop", "A disk array with no CPUs"],
+      "answer": 1,
+      "explanation": "SMP is a set of tightly coupled CPUs sharing memory and disk — a 'shared-everything' environment where a process can run on any CPU."
+    },
+    {
+      "q": "A Massively Parallel Processing (MPP) machine is characterised by:",
+      "options": ["CPUs that all share one memory and disk", "Many loosely coupled nodes, each with its own memory and (non-shared) disk, linked by a high-speed connection", "A single shared cache for all nodes", "No parallelism at all"],
+      "answer": 1,
+      "explanation": "MPP consists of many loosely coupled nodes, each with its own memory and disk, connected by a high-speed link."
+    },
+    {
+      "q": "In a data warehouse, the availability relationship is given as:",
+      "options": ["D = A × 100", "D = 100 − A, where D is acceptable downtime and A is required availability percentage", "A = D + 100", "D = A / 100"],
+      "answer": 1,
+      "explanation": "Unit 4 gives D = 100 − A, where D is acceptable downtime and A is the percentage of required availability."
+    },
+    {
+      "q": "A Cold backup is one that is:",
+      "options": ["Taken while the database engine is up and running", "Taken while the database is completely shut down", "A partial round-robin backup", "Taken only over the network"],
+      "answer": 1,
+      "explanation": "A cold backup is taken while the database is completely shut down; a hot backup is taken while the engine is running."
+    },
+    {
+      "q": "The three basic levels of testing performed on a data warehouse are:",
+      "options": ["Alpha, Beta, Release testing", "Unit testing, Integration testing and System testing", "Load, Stress, Spike testing", "Manual, Automated, Regression testing"],
+      "answer": 1,
+      "explanation": "Unit 4 lists Unit testing, Integration testing and System testing as the three basic levels."
+    },
+    {
+      "q": "Who performs unit testing and system testing respectively?",
+      "options": ["The end-user and the developer", "The developer performs unit testing; the testing team performs system testing", "The query manager and the load manager", "Both are performed by management"],
+      "answer": 1,
+      "explanation": "In unit testing each component is tested by the developer, while system testing of the whole warehouse is performed by the testing team."
+    },
+    {
+      "q": "The two kinds of queries considered when tuning a data warehouse are:",
+      "options": ["Simple and complex queries", "Fixed queries and Ad hoc queries", "Read and write queries", "Online and offline queries"],
+      "answer": 1,
+      "explanation": "Tuning distinguishes Fixed queries (regular reports, canned queries, common aggregations) from Ad hoc queries."
+    },
+    {
+      "q": "Why is tuning a data warehouse described as difficult?",
+      "options": ["Because the warehouse never changes", "Because it is dynamic and it is hard to predict what queries users will post in the future", "Because there are no users", "Because queries are always identical"],
+      "answer": 1,
+      "explanation": "A data warehouse keeps evolving and it is unpredictable what queries users will post, making tuning difficult."
+    },
+    {
+      "q": "During physical design, logical entities and relationships are mapped respectively to:",
+      "options": ["Columns and rows", "Tables and foreign key constraints", "Indexes and views", "Tablespaces and dimensions"],
+      "answer": 1,
+      "explanation": "Physical design maps entities to tables, relationships to foreign key constraints, and attributes to columns."
+    }
+  ]
+}

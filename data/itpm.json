@@ -1,0 +1,398 @@
+{
+  "id": "itpm",
+  "name": "Tools & Techniques for IT Project Management",
+  "icon": "📋",
+  "blurb": "SPM, process models, requirements, planning, scheduling, quality, HR, risk & docs",
+  "questions": [
+    {
+      "q": "Software Project Management (SPM) is best described as:",
+      "options": ["Writing executable program code", "A proper way of planning and leading software projects — planning, implementing, monitoring and controlling them", "Only testing finished software", "Marketing software products"],
+      "answer": 1,
+      "explanation": "SPM is a part of project management in which software projects are planned, implemented, monitored and controlled."
+    },
+    {
+      "q": "The 'triple constraints' (basic forces) that drive and define a software project are:",
+      "options": ["People, Process, Technology", "Cost, Schedule and Quality", "Scope, Risk, Communication", "Design, Code, Test"],
+      "answer": 1,
+      "explanation": "Unit 1 identifies cost, schedule and quality as the three basic forces at play in industrial-strength software."
+    },
+    {
+      "q": "According to the ISO software product quality standard, which set lists the six quality attributes?",
+      "options": ["Speed, size, cost, colour, weight, shape", "Functionality, Reliability, Usability, Efficiency, Maintainability, Portability", "Design, Code, Test, Deploy, Review, Audit", "Scope, Time, Cost, Quality, Risk, Procurement"],
+      "answer": 1,
+      "explanation": "The six software quality attributes are Functionality, Reliability, Usability, Efficiency, Maintainability and Portability."
+    },
+    {
+      "q": "The management myth 'adding more programmers to a late project speeds it up' is false because:",
+      "options": ["Programmers never make mistakes", "Adding manpower to a late project delays it further, as new workers take time to learn the project", "More people always triple the output", "Outsourcing solves all problems"],
+      "answer": 1,
+      "explanation": "Adding more manpower to a project already behind schedule further delays it — new workers take longer to come up to speed (Brooks' Law idea)."
+    },
+    {
+      "q": "The three 'R's for improving software maintainability/evolution are:",
+      "options": ["Reuse, Reengineering, Retooling", "Review, Rewrite, Release", "Record, Report, Retrieve", "Request, Require, Refine"],
+      "answer": 0,
+      "explanation": "Unit 1 describes Reuse, Reengineering and Retooling as the three R's supporting software evolution."
+    },
+    {
+      "q": "In the PMI framework, the five project management process phases are:",
+      "options": ["Analyse, Design, Code, Test, Deploy", "Initiation, Planning, Execution, Monitoring & Controlling, Closing", "Plan, Do, Check, Act, Review", "Requirements, Design, Build, Release, Maintain"],
+      "answer": 1,
+      "explanation": "The PMBOK life cycle has five phases: Initiation, Planning, Execution, Monitoring & Controlling and Closing."
+    },
+    {
+      "q": "A project charter is created in which phase, and what does it contain?",
+      "options": ["Closing phase; final reports", "Initiation phase; project constraints, goals, appointment of the project manager, budget and timeline", "Execution phase; source code", "Planning phase; test cases only"],
+      "answer": 1,
+      "explanation": "The project charter is an initiation-phase document with constraints, goals, the PM's appointment, budget and expected timeline — but no technical detail."
+    },
+    {
+      "q": "In the Mendelow stakeholder framework, Influence is defined as:",
+      "options": ["Power minus interest", "The product of Power and Interest (Power × Interest)", "Legitimacy plus urgency", "Interest alone"],
+      "answer": 1,
+      "explanation": "Mendelow defines Power as ability to influence objectives, Interest as how much stakeholders care, and Influence as Power × Interest."
+    },
+    {
+      "q": "In the Salience stakeholder model, a 'Definitive' stakeholder is one who has:",
+      "options": ["Only power", "Power, legitimacy AND urgency", "Only urgency and legitimacy", "Neither power nor interest"],
+      "answer": 1,
+      "explanation": "The Salience model classifies by power, legitimacy and urgency; a Definitive stakeholder (class 7) has all three and is the most important."
+    },
+    {
+      "q": "In the classical Waterfall model, a major drawback is that it:",
+      "options": ["Has too many feedback paths", "Has no feedback path and is difficult to accommodate change requests", "Overlaps all phases", "Skips testing entirely"],
+      "answer": 1,
+      "explanation": "The classical waterfall model has no feedback path for error correction and cannot easily accommodate changing requirements."
+    },
+    {
+      "q": "The V-Model is also known as the:",
+      "options": ["Spiral model", "Verification and Validation model", "Big Bang model", "Prototype model"],
+      "answer": 1,
+      "explanation": "The V-Model associates a testing (validation) phase with each development (verification) stage, giving it its V shape."
+    },
+    {
+      "q": "Which SDLC model combines iterative development with systematic risk analysis, passing through four phases in iterations called spirals?",
+      "options": ["Waterfall model", "Spiral model", "RAD model", "V-Model"],
+      "answer": 1,
+      "explanation": "The Spiral model combines iterative development with the waterfall's control, placing very high emphasis on risk analysis across four phases."
+    },
+    {
+      "q": "In Extreme Programming (XP), 'pair programming' is part of which practice, and what is TDD?",
+      "options": ["Design; Test During Deployment", "Code Review; Test-Driven Development where test cases are written before code", "Integration; Total Design Documentation", "Release; Timed Delivery Development"],
+      "answer": 1,
+      "explanation": "XP uses pair programming for code review and Test-Driven Development (TDD), in which test cases are written even before any code is written."
+    },
+    {
+      "q": "The RAD (Rapid Application Development) model is built around which phases?",
+      "options": ["Feasibility, Design, Code, Test", "Business Modelling, Data Modelling, Process Modelling, Application Generation, Testing & Turnover", "Unfreeze, Change, Refreeze", "Initiation, Planning, Execution, Closing"],
+      "answer": 1,
+      "explanation": "RAD distributes work into Business Modelling, Data Modelling, Process Modelling, Application Generation and Testing & Turnover, using prototyping and automation tools."
+    },
+    {
+      "q": "The three types of software maintenance described in the waterfall model are:",
+      "options": ["Alpha, Beta, Acceptance", "Corrective, Perfective, Adaptive", "Unit, Integration, System", "Preventive, Reactive, Proactive"],
+      "answer": 1,
+      "explanation": "Maintenance types are Corrective (fix errors), Perfective (enhance functionality) and Adaptive (port to a new environment)."
+    },
+    {
+      "q": "Non-functional requirements differ from functional requirements in that they:",
+      "options": ["Describe what the system should do", "Constrain the services/functions (e.g. performance, reliability, security) and often apply to the system as a whole", "Are always written in code", "Are never documented"],
+      "answer": 1,
+      "explanation": "Non-functional requirements are constraints on services (timing, reliability, security, etc.) that usually apply to the system as a whole."
+    },
+    {
+      "q": "In a Data Flow Diagram (DFD), which convention uses circles for processes while Gane & Sarson use rounded rectangles?",
+      "options": ["ISO notation", "Yourdon-Coad / Yourdon-DeMarco", "UML notation", "HIPO notation"],
+      "answer": 1,
+      "explanation": "Yourdon-Coad and Yourdon-DeMarco use circles for processes; Gane & Sarson use rounded rectangles (lozenges)."
+    },
+    {
+      "q": "A context-level DFD that represents the entire system as a single process is also called:",
+      "options": ["A Level 2 DFD", "A Level 0 DFD", "A data dictionary", "A use case diagram"],
+      "answer": 1,
+      "explanation": "The context diagram shows the whole system as one process with its external entities and is referred to as the Level 0 DFD."
+    },
+    {
+      "q": "In Function Point Analysis, the Value Adjustment Factor (VAF) is computed as:",
+      "options": ["VAF = UFP × TDI", "VAF = (TDI × 0.01) + 0.65", "VAF = FPC ÷ UFP", "VAF = KLOC × 1.05"],
+      "answer": 1,
+      "explanation": "VAF = (TDI × 0.01) + 0.65, where TDI is the Total Degree of Influence (0–70); then FPC = UFP × VAF."
+    },
+    {
+      "q": "In the COCOMO model, which project class suits a small team, stable environment and well-understood problem?",
+      "options": ["Embedded", "Organic", "Semi-detached", "Detailed"],
+      "answer": 1,
+      "explanation": "Organic projects involve small teams with good experience and less-than-rigid requirements (e.g. simple inventory systems)."
+    },
+    {
+      "q": "The purpose of a Business Case in the IT project methodology is to:",
+      "options": ["Write the source code", "Provide senior management the information needed to decide whether a project should be funded, analysing value/feasibility/costs/benefits/risks of alternatives", "Replace the project plan", "Document test results"],
+      "answer": 1,
+      "explanation": "A business case analyses organisational value, feasibility, costs, benefits and risks of alternatives so management can make an informed funding decision."
+    },
+    {
+      "q": "In the non-numeric 'Sacred Cow' project selection model, a project is selected because:",
+      "options": ["It has the highest NPV", "A senior/powerful official suggested it, and it continues until finished or the boss ends it", "It scored highest in a weighting matrix", "It has the shortest payback period"],
+      "answer": 1,
+      "explanation": "The Sacred Cow model selects a project simply because a senior, powerful official proposed it; it continues until completed or the boss cancels it."
+    },
+    {
+      "q": "Which numeric project-selection model is also called the Net Present Value (NPV) method?",
+      "options": ["Payback Period", "Discounted Cash Flow", "Average Rate of Return", "Q-Sort"],
+      "answer": 1,
+      "explanation": "The Discounted Cash Flow method is the NPV method — it discounts all cash flows by the required rate of return; a positive sum means the project is acceptable."
+    },
+    {
+      "q": "The Balanced Scorecard approach evaluates a project across which four perspectives?",
+      "options": ["Cost, Time, Scope, Quality", "Financial, Customer, Internal Business Processes, Innovation & Learning", "People, Process, Product, Technology", "Strengths, Weaknesses, Opportunities, Threats"],
+      "answer": 1,
+      "explanation": "The Balanced Scorecard balances Financial, Customer, Internal Business Processes, and Innovation & Learning perspectives."
+    },
+    {
+      "q": "In scope management, 'Scope creep' refers to:",
+      "options": ["The inability to define the project scope at all", "Adding features once the scope has already been approved, lengthening the schedule and causing cost overruns", "Changing the project's MOV entirely", "Reducing the scope deliberately"],
+      "answer": 1,
+      "explanation": "Scope creep is adding features after the scope is approved; scope grove is inability to define scope; scope leap changes the MOV."
+    },
+    {
+      "q": "The WBS '8/80 rule' states that a work package should take:",
+      "options": ["Between 8 and 80 minutes", "No less than 8 hours and no more than 80 hours of effort", "Exactly 80 days", "8 to 80 weeks"],
+      "answer": 1,
+      "explanation": "The 8/80 rule suggests a work package should require no less than 8 hours and no more than 80 hours of effort."
+    },
+    {
+      "q": "In risk planning, Risk Exposure (RE) is calculated as:",
+      "options": ["RE = Cost − Probability", "RE = Probability of the risk × Cost (impact)", "RE = Probability ÷ Cost", "RE = Impact − Probability"],
+      "answer": 1,
+      "explanation": "Risk Exposure RE = Probability of the risk × Cost (size of loss); it is used to identify top risks and mitigation strategies."
+    },
+    {
+      "q": "The software effort-distribution '40-20-40 rule' allocates effort as:",
+      "options": ["40% coding, 20% design, 40% requirements", "40% front-end analysis & design, 20% coding, 40% back-end testing", "40% planning, 20% testing, 40% deployment", "40% requirements, 20% maintenance, 40% coding"],
+      "answer": 1,
+      "explanation": "The 40-20-40 rule allocates 40% to front-end analysis/design, 20% to coding and 40% to back-end testing."
+    },
+    {
+      "q": "The two quantitative scheduling techniques used to identify the chain of dependent tasks determining project duration are:",
+      "options": ["SWOT and PESTLE", "PERT (Program Evaluation and Review Technique) and CPM (Critical Path Method)", "DMAIC and DMADV", "RACI and OBS"],
+      "answer": 1,
+      "explanation": "PERT and CPM are quantitative techniques that identify the critical path — the chain of dependent tasks determining project duration."
+    },
+    {
+      "q": "In the Critical Path Method, the critical path is:",
+      "options": ["The shortest path with the most float", "The longest-duration path through the network, which has zero float and determines the minimum project duration", "Any path chosen by the manager", "The path with the fewest activities"],
+      "answer": 1,
+      "explanation": "The critical path is the longest path through the network; it has zero float and defines the shortest time to complete the project."
+    },
+    {
+      "q": "The two schedule-compression techniques are:",
+      "options": ["Leveling and loading", "Crashing (adding resources) and Fast-tracking (doing tasks in parallel)", "Unfreezing and refreezing", "Crashing and archiving"],
+      "answer": 1,
+      "explanation": "Crashing applies more resources to the critical path; fast-tracking performs activities in parallel — both compress the schedule."
+    },
+    {
+      "q": "In communication overhead, the total number of communication channels among N people is given by:",
+      "options": ["N × 2", "N(N−1)/2", "N² ", "N + (N−1)"],
+      "answer": 1,
+      "explanation": "The number of communication channels among N people is C = N(N−1)/2, so overhead grows rapidly as team size increases."
+    },
+    {
+      "q": "A Fixed-Price (firm fixed-price / lump-sum) contract primarily places the risk of cost overruns on:",
+      "options": ["The buyer", "The seller (vendor)", "An insurer", "The government"],
+      "answer": 1,
+      "explanation": "Fixed-price contracts define a total price and require the seller to assume the risk of cost overruns."
+    },
+    {
+      "q": "Which cost-reimbursable contract type is described as 'the pits for the buyer' because the vendor can run up costs by wasting materials?",
+      "options": ["Cost plus fixed fee", "Cost plus percentage of costs", "Cost plus incentive fee", "Cost plus award fee"],
+      "answer": 1,
+      "explanation": "Cost plus percentage of costs is worst for the buyer — the vendor can waste materials and still be paid a percentage on the replacements."
+    },
+    {
+      "q": "When only one qualified seller exists in the marketplace, the procurement situation is called:",
+      "options": ["Single source", "Sole source", "Oligopoly", "Open market"],
+      "answer": 1,
+      "explanation": "Sole source = only one qualified seller exists; single source = the org prefers a specific seller; oligopoly = very few sellers."
+    },
+    {
+      "q": "Which document is a request FROM a buyer TO sellers asking them to provide a solution (not just a price)?",
+      "options": ["Bid", "Request for Proposal (RFP)", "Quotation", "Request for Quote (RFQ)"],
+      "answer": 1,
+      "explanation": "An RFP requests sellers to provide a proposal/solution; an RFQ/IFB requests a price, and bids/quotes come from sellers with price as the deciding factor."
+    },
+    {
+      "q": "In the SEI Capability Maturity Model (CMM), the five levels in order are:",
+      "options": ["Defined, Repeatable, Initial, Managed, Optimizing", "Initial, Repeatable, Defined, Managed, Optimizing", "Initial, Defined, Managed, Repeatable, Optimizing", "Planned, Executed, Controlled, Measured, Improved"],
+      "answer": 1,
+      "explanation": "CMM levels are Level 1 Initial, Level 2 Repeatable, Level 3 Defined, Level 4 Managed and Level 5 Optimizing."
+    },
+    {
+      "q": "McCall's software quality model groups 11 factors into which three categories?",
+      "options": ["Input, Process, Output", "Product Operation, Product Revision, Product Transition", "Design, Code, Test", "People, Process, Product"],
+      "answer": 1,
+      "explanation": "McCall groups the 11 quality factors into Product Operation, Product Revision and Product Transition categories."
+    },
+    {
+      "q": "Six Sigma's structured improvement methodology for existing processes is known by the acronym:",
+      "options": ["PDCA", "DMAIC (Define-Measure-Analyze-Improve-Control)", "RACI", "SIPOC"],
+      "answer": 1,
+      "explanation": "Six Sigma uses DMAIC (Define, Measure, Analyze, Improve, Control) and DMADV for new designs."
+    },
+    {
+      "q": "Philip Crosby's 'Zero Defects' concept, as adopted by Six Sigma, is quantified as:",
+      "options": ["0 defects literally", "3.4 defects per million opportunities (DPMO), allowing a 1.5-sigma shift", "1 defect per 1000 lines", "100% error-free guaranteed"],
+      "answer": 1,
+      "explanation": "Under the Six Sigma standard, 'zero defects' is defined as 3.4 defects per million opportunities (allowing a 1.5-sigma process shift)."
+    },
+    {
+      "q": "Ishikawa's cause-and-effect diagram is also commonly called a:",
+      "options": ["Pareto chart", "Fishbone diagram", "Control chart", "Scatter diagram"],
+      "answer": 1,
+      "explanation": "The Ishikawa (cause-and-effect) diagram is called a fishbone diagram because the effect is the 'head' and causes form the 'bones'."
+    },
+    {
+      "q": "In a control chart, the 'Rule of Seven' indicates an out-of-control process when:",
+      "options": ["Any point exceeds the mean", "Seven data points in a row fall above or below the mean", "Seven points are within limits", "The mean shifts by 7%"],
+      "answer": 1,
+      "explanation": "The Rule of Seven (Seven Run Rule) flags seven consecutive points on one side of the mean as a non-random, out-of-control signal."
+    },
+    {
+      "q": "Software reliability is measured by Mean Time Between Failures, calculated as:",
+      "options": ["MTBF = MTTF − MTTR", "MTBF = MTTF + MTTR", "MTBF = MTTF × MTTR", "MTBF = MTTR ÷ MTTF"],
+      "answer": 1,
+      "explanation": "MTBF = MTTF (Mean Time To Failure) + MTTR (Mean Time To Repair); availability = (MTTF/MTBF) × 100."
+    },
+    {
+      "q": "In Maslow's hierarchy of needs, which need is the single 'growth need' at the top (the rest being deficiency needs)?",
+      "options": ["Safety", "Self-actualization", "Social", "Esteem"],
+      "answer": 1,
+      "explanation": "The bottom four (physiological, safety, social, esteem) are deficiency needs; self-actualization at the top is the growth need."
+    },
+    {
+      "q": "The five main types of power a project manager can use include coercive, legitimate, reward, referent and:",
+      "options": ["Budget power", "Expert power", "Friendship power", "Assignment power"],
+      "answer": 1,
+      "explanation": "The five main power types are coercive, legitimate, expert, reward and referent power."
+    },
+    {
+      "q": "A responsibility assignment matrix that maps work from the OBS to responsible and performing units is abbreviated:",
+      "options": ["WBS", "RAM", "SOW", "CCB"],
+      "answer": 1,
+      "explanation": "A RAM (Responsibility Assignment Matrix) allocates work to responsible (R) and performing (P) organizations/teams/individuals."
+    },
+    {
+      "q": "The Myers-Briggs Type Indicator (MBTI) measures personality across how many dimensions, including Judgment/Perception?",
+      "options": ["Three", "Four (E/I, S/N, T/F, J/P)", "Five", "Two"],
+      "answer": 1,
+      "explanation": "MBTI has four dimensions: Extrovert/Introvert, Sensation/Intuition, Thinking/Feeling and Judgment/Perception."
+    },
+    {
+      "q": "Lewin's model of organisational change consists of which three stages?",
+      "options": ["Plan, Do, Review", "Unfreezing, Changing, Refreezing", "Deny, Resist, Accept", "Initiate, Transition, Close"],
+      "answer": 1,
+      "explanation": "Lewin's change model has three stages: Unfreezing the status quo, Changing (the neutral zone), and Refreezing the new state."
+    },
+    {
+      "q": "The five conflict-handling approaches described are avoidance, accommodation, forcing, compromise and:",
+      "options": ["Negotiation", "Collaboration", "Delegation", "Escalation"],
+      "answer": 1,
+      "explanation": "The five approaches are avoidance, accommodation (smoothing), forcing, compromise, and collaboration (best when risks/benefits are high)."
+    },
+    {
+      "q": "McGregor's Theory X assumes that:",
+      "options": ["People are self-motivated and seek responsibility", "People are indolent, resist work, and must be persuaded, rewarded and punished by management", "Management only organizes resources", "Workers always tell the truth"],
+      "answer": 1,
+      "explanation": "Theory X assumes people resist work and must be controlled; Theory Y assumes motivation and growth potential are latent in most people."
+    },
+    {
+      "q": "In Herzberg's theory, factors such as achievement, recognition and growth opportunity are called:",
+      "options": ["Hygiene factors", "Motivators", "Deficiency needs", "Control values"],
+      "answer": 1,
+      "explanation": "Herzberg calls achievement, recognition, the work itself and growth 'motivators'; physical conditions and peer relations are 'hygiene factors'."
+    },
+    {
+      "q": "In the default modern project organisation, which four teams are defined?",
+      "options": ["Sales, Marketing, Finance, HR", "Software Management, Software Architecture, Software Development, Software Assessment", "Initiation, Planning, Execution, Closing", "Analysts, Coders, Testers, Users"],
+      "answer": 1,
+      "explanation": "The default organisation has the Software Management, Software Architecture, Software Development and Software Assessment teams."
+    },
+    {
+      "q": "In process automation, the automation support at the project (macroprocess) level is called a(n):",
+      "options": ["Infrastructure", "Environment", "Tool", "Baseline"],
+      "answer": 1,
+      "explanation": "Metaprocess (line of business) support is an infrastructure; macroprocess (project) support is an environment; microprocess support is a tool."
+    },
+    {
+      "q": "The quality-indicator metric MTBF and Maturity classifies a non-deterministic fault (coincidental with a probabilistic situation, e.g. a design error) as a:",
+      "options": ["Bohr-bug", "Heisen-bug", "Type 0 bug", "Syntax bug"],
+      "answer": 1,
+      "explanation": "Deterministic errors are Bohr-bugs (e.g. coding errors); non-deterministic, probabilistic errors are Heisen-bugs (e.g. design errors)."
+    },
+    {
+      "q": "In risk assessment, the priority of a risk is computed as p = r × s, where r and s are:",
+      "options": ["Resources and schedule", "The probability of the risk coming true (r) and the severity of loss (s)", "Risk and safety", "Rate and size"],
+      "answer": 1,
+      "explanation": "Risk priority p = r × s, where r is the probability of the risk occurring and s is the severity of the resulting loss."
+    },
+    {
+      "q": "The three main strategies to plan for a risk are to avoid it, reduce it, or:",
+      "options": ["Ignore it", "Transfer it (e.g. to a third party or via insurance)", "Document it only", "Escalate it"],
+      "answer": 1,
+      "explanation": "Risk can be avoided, transferred (to a third party / insurance) or reduced; Risk Leverage compares the reduction in exposure to the cost of reduction."
+    },
+    {
+      "q": "The Delphi technique for risk identification works by:",
+      "options": ["A single expert deciding alone", "A panel of independent experts answering questionnaires over multiple anonymous rounds until they converge", "Reviewing only historical documents", "Drawing fishbone diagrams"],
+      "answer": 1,
+      "explanation": "The Delphi method pools independent experts through multiple anonymous questionnaire rounds, converging toward consensus while removing hierarchy/personality influence."
+    },
+    {
+      "q": "In PERT, the expected (weighted average) time for an activity is calculated as:",
+      "options": ["(SP + LT) / 2", "(SP + 4·MT + LT) / 6", "SP × MT × LT", "(SP + MT + LT) / 3"],
+      "answer": 1,
+      "explanation": "PERT expected time = (optimistic SP + 4 × most-likely MT + pessimistic LT) / 6, which allows for uncertainty."
+    },
+    {
+      "q": "The three main functions of contracts in risk allocation are work transfer, risk transfer and:",
+      "options": ["Payment transfer", "Motive transfer (implanting motives in the contractor matching the client's)", "Knowledge transfer", "Ownership transfer"],
+      "answer": 1,
+      "explanation": "Contracts perform work transfer, risk transfer, and motive transfer — implanting motives in the contractor that match the client's."
+    },
+    {
+      "q": "In a RACI chart, how many people should be 'Accountable' for each task?",
+      "options": ["At least two", "Exactly one (only one accountable person, no more)", "As many as possible", "None"],
+      "answer": 1,
+      "explanation": "In RACI (Responsible, Accountable, Consulted, Informed), every task should have exactly one Accountable person and no more."
+    },
+    {
+      "q": "In the version-control numbering convention described, the first final/approved version of a document is numbered:",
+      "options": ["0-1", "1-0", "2-0", "0-0"],
+      "answer": 1,
+      "explanation": "Drafts are numbered 0-1, 0-2, 0-3…; the first final/approved version is 1-0, and later revisions become 1-1, 1-2… up to 2-0."
+    },
+    {
+      "q": "Document control encompasses six functions: creation, review, modification, certification, issuance and:",
+      "options": ["Deletion", "Distribution", "Encryption", "Translation"],
+      "answer": 1,
+      "explanation": "Document control covers Creation, Review, Modification, Certification, Issuance and Distribution."
+    },
+    {
+      "q": "Reviews held at the end of each project phase to decide whether to proceed to the next phase are called:",
+      "options": ["Stand-ups", "Phase-gate reviews (also stage-gates or kill-points)", "Retrospectives", "Sprint demos"],
+      "answer": 1,
+      "explanation": "Phase-gate reviews (stage-gates / kill-points) occur at the end of each phase to review performance and decide whether to proceed."
+    },
+    {
+      "q": "The lessons-learned process consists of which five steps?",
+      "options": ["Plan, Do, Check, Act, Review", "Identify, Document, Analyze, Store, Retrieve", "Initiate, Plan, Execute, Monitor, Close", "Collect, Clean, Transform, Load, Report"],
+      "answer": 1,
+      "explanation": "The lessons-learned process has five steps: Identify, Document, Analyze, Store and Retrieve (with keyword search for retrieval)."
+    },
+    {
+      "q": "A lessons-learned session should ideally be facilitated by:",
+      "options": ["The project manager alone", "Someone other than the project manager, to ensure all relevant items are included", "The project sponsor only", "An external auditor only"],
+      "answer": 1,
+      "explanation": "To get optimum results the session should be facilitated by someone other than the PM, and should ask: what went right, what went wrong, what needs improvement."
+    }
+  ]
+}

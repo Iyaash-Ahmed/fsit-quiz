@@ -1,0 +1,356 @@
+{
+  "id": "leadership",
+  "name": "Leadership Qualities for the IT Industry",
+  "icon": "🧭",
+  "blurb": "Leadership theories, organizational behaviour, groups & teams, culture, communication",
+  "questions": [
+    {
+      "q": "According to Keith Davis, leadership is:",
+      "options": ["The right to issue orders based on hierarchy", "The ability to persuade others to seek defined objectives enthusiastically", "A reward-and-punishment system", "The process of writing company policies"],
+      "answer": 1,
+      "explanation": "Keith Davis defines leadership as the ability to persuade others to seek defined objectives enthusiastically — the human factor that binds and motivates a group."
+    },
+    {
+      "q": "The 'Great Man' theory of leadership is based on the belief that:",
+      "options": ["Leaders are made through training", "Great leaders are born (often from aristocracy) and arise in times of need", "Leadership depends entirely on the situation", "Anyone can lead with the right rewards"],
+      "answer": 1,
+      "explanation": "The Great Man theory holds that leaders are born great (historically often from aristocracy) and emerge in times of need."
+    },
+    {
+      "q": "Servant-leadership theory is characterised by:",
+      "options": ["Authoritarian control and power hoarding", "A shared-power system that puts the needs of others first and emphasises collaboration, trust and empathy", "Ignoring subordinates' development", "Decisions made only at the top"],
+      "answer": 1,
+      "explanation": "Servant-leadership uses shared power, putting others' needs first and emphasising collaboration, trust, empathy and ethical power usage — the leader is a servant first."
+    },
+    {
+      "q": "A leader who feels they must control every aspect of a project and won't delegate is falling into which trap?",
+      "options": ["Long-distance manager", "Micromanaging", "Reactionary leader", "Servant leader"],
+      "answer": 1,
+      "explanation": "Micromanaging stems from a need to control every aspect; it stifles innovation and demotivates employees who fear their work will be changed or invalidated."
+    },
+    {
+      "q": "Kirkpatrick and Locke identified six traits that differentiate leaders from non-leaders. Which is one of them?",
+      "options": ["Height", "Drive (achievement, ambition, energy, tenacity, initiative)", "Extraversion only", "Wealth"],
+      "answer": 1,
+      "explanation": "Kirkpatrick and Locke's six traits are Drive, Leadership motivation, Honesty/Integrity, Self-confidence, Cognitive ability and Knowledge of the business."
+    },
+    {
+      "q": "Which five leadership traits consistently reappear across the major trait studies (Stogdill, Mann, etc.)?",
+      "options": ["Height, weight, speech, age, gender", "Intelligence, self-confidence, determination, integrity and sociability", "Wealth, status, charisma, looks, luck", "Anger, fear, pride, envy, greed"],
+      "answer": 1,
+      "explanation": "Northouse summarises the five consistently-appearing traits as intelligence, self-confidence, determination, integrity and sociability."
+    },
+    {
+      "q": "Which early thinker, in 'The Prince', defined power and the manipulation of social situations — even using less-than-virtuous means — as key leader attributes?",
+      "options": ["Plato", "Aristotle", "Niccolò Machiavelli", "Lao-tzu"],
+      "answer": 2,
+      "explanation": "Machiavelli, in The Prince, prescribed slyness and the use of less-than-virtuous means to gain power when virtuous means were inadequate."
+    },
+    {
+      "q": "In the evolution of Organizational Behaviour, who propounded 'Division of labour and Work specialization' in 'The Wealth of Nations' (1776)?",
+      "options": ["Max Weber", "Adam Smith", "F.W. Taylor", "Henry Fayol"],
+      "answer": 1,
+      "explanation": "Adam Smith proposed a new organizational structure based on division of labour and work specialization in The Wealth of Nations (1776)."
+    },
+    {
+      "q": "Who is referred to as the 'real father of modern management' and defined the 14 principles of management?",
+      "options": ["Max Weber", "F.W. Taylor", "Henry Fayol", "Robert Owen"],
+      "answer": 2,
+      "explanation": "Henry Fayol, the 'real father of modern management', defined the universal functions of managers and the 14 principles of management."
+    },
+    {
+      "q": "According to Stephen P. Robbins, Organizational Behaviour investigates the impact that which three things have on behaviour within organizations?",
+      "options": ["Profit, cost, revenue", "Individuals, groups and structure", "Hardware, software, data", "Policies, procedures, rules"],
+      "answer": 1,
+      "explanation": "Robbins defines OB as the study of the impact that individuals, groups and structure have on behaviour within organizations, to improve effectiveness."
+    },
+    {
+      "q": "In organizational structure, 'span of control' refers to:",
+      "options": ["The number of hierarchical levels", "The total number of subordinates over whom a manager has authority", "How written the rules are", "Where decision authority is concentrated"],
+      "answer": 1,
+      "explanation": "Span of control is the total number of subordinates over whom a manager has authority; formalization, centralization and complexity are other structural concepts."
+    },
+    {
+      "q": "The four functions of management are:",
+      "options": ["Hiring, firing, paying, promoting", "Planning, Organizing, Leading and Controlling", "Forming, Storming, Norming, Performing", "Analyse, Design, Build, Test"],
+      "answer": 1,
+      "explanation": "Management is the process of planning, organizing, leading and controlling an organization's resources to increase effectiveness."
+    },
+    {
+      "q": "Aptitude differs from ability in that aptitude:",
+      "options": ["Is the current capacity to perform a task", "Represents a person's potential/capability of learning something", "Is always physical", "Means the same as personality"],
+      "answer": 1,
+      "explanation": "Aptitude is a person's potential capability of learning something, whereas ability is the existing capacity (knowledge and skills) to perform tasks now."
+    },
+    {
+      "q": "In the Big Five personality model, which trait describes being responsible, dependable, persistent and achievement-oriented?",
+      "options": ["Extroversion", "Agreeableness", "Conscientiousness", "Openness to Experience"],
+      "answer": 2,
+      "explanation": "Conscientiousness captures being organized, dependable, responsible and self-disciplined — a good predictor of job performance."
+    },
+    {
+      "q": "A person who believes that what happens to them is a result of fate, chance or luck has a(n):",
+      "options": ["Internal locus of control", "External locus of control", "High self-monitoring score", "Type A personality"],
+      "answer": 1,
+      "explanation": "External locus of control = believing outcomes are due to fate/luck/others; internal locus = believing one's own behaviour determines outcomes."
+    },
+    {
+      "q": "Type A individuals are best described as:",
+      "options": ["Relaxed and easy-going", "Intensely competitive, impatient, with a chronic sense of time urgency", "Uninterested in achievement", "Indifferent to numbers"],
+      "answer": 1,
+      "explanation": "Type A individuals have an intense desire to achieve, are competitive, impatient and have a sense of time urgency; Type B are relaxed and easy-going."
+    },
+    {
+      "q": "Perception is defined as:",
+      "options": ["Simply what one sees with the eyes", "A process by which individuals organize and interpret sensory impressions to give meaning to their environment", "A fixed, objective record of reality", "The same thing as attitude"],
+      "answer": 1,
+      "explanation": "Perception is the cognitive process by which individuals organize and interpret sensory impressions to give meaning to their environment — so it is subjective."
+    },
+    {
+      "q": "Judging someone on the basis of the group to which he or she belongs is which perceptual shortcut?",
+      "options": ["Halo effect", "Projection", "Stereotyping", "Selective perception"],
+      "answer": 2,
+      "explanation": "Stereotyping is judging someone based on the group they belong to; the halo effect bases a general impression on a single characteristic."
+    },
+    {
+      "q": "The Gestalt principle of 'closure' in perception means people:",
+      "options": ["Group nearby items together", "Mentally fill in gaps/missing parts to make information a meaningful whole", "Separate a figure from its background", "Group similar items together"],
+      "answer": 1,
+      "explanation": "Closure is the mental process of filling in missing elements to form a meaningful whole; proximity, similarity and figure-ground are other Gestalt principles."
+    },
+    {
+      "q": "How is a belief distinguished from an attitude?",
+      "options": ["Belief is purely emotional; attitude is factual", "A belief is the cognitive component of an attitude — a hypothesis about the nature of objects — held more firmly than an opinion", "They are identical", "An attitude is always written down"],
+      "answer": 1,
+      "explanation": "A belief is an enduring organization of perceptions/cognitions — the cognitive component of attitude — and is held more firmly than a changeable opinion."
+    },
+    {
+      "q": "Which of the following is an INFORMAL group?",
+      "options": ["A department created by the organization to handle customer complaints", "A functional group with a superior-subordinate relationship", "Members who share an interest in cricket and spend tea breaks together", "A project task force appointed by the plant manager"],
+      "answer": 2,
+      "explanation": "Informal groups emerge from members' interactions and common interests (e.g. a cricket-interest group), unlike formally created functional or task groups."
+    },
+    {
+      "q": "In Tuckman's model of group development, which stage is characterised by intra-group conflict and resistance to the control the group imposes on individuality?",
+      "options": ["Forming", "Storming", "Norming", "Performing"],
+      "answer": 1,
+      "explanation": "Storming is the second stage, marked by intra-group conflict and power struggles over who will control the group."
+    },
+    {
+      "q": "A self-managed team is one that:",
+      "options": ["Only shares information with no joint work", "Takes on many responsibilities of their former supervisors — planning, scheduling, assigning tasks, and operating decisions", "Is always temporary and cross-departmental", "Uses only video conferencing to collaborate"],
+      "answer": 1,
+      "explanation": "Self-managed teams (typically 10-15 people) take on supervisory responsibilities: planning/scheduling work, controlling pace, making operating decisions, even hiring."
+    },
+    {
+      "q": "Quality circles are an example of which type of team?",
+      "options": ["Virtual teams", "Problem-solving teams", "Cross-functional teams", "Multicultural teams"],
+      "answer": 1,
+      "explanation": "Quality circles — small groups meeting regularly to discuss and solve quality problems — are a form of problem-solving team."
+    },
+    {
+      "q": "Hofstede's cultural dimension model was based on a study of employees at which company across 50+ countries?",
+      "options": ["Toyota", "IBM", "Microsoft", "General Electric"],
+      "answer": 1,
+      "explanation": "Hofstede studied IBM employees in more than 50 countries, allowing him to attribute patterns to national rather than company culture."
+    },
+    {
+      "q": "A high Power Distance Index (PDI) country is one where:",
+      "options": ["Power is shared and widely dispersed", "Society accepts an unequal, hierarchical distribution of power and people understand 'their place'", "Supervisors and employees are treated as equals", "There is no hierarchy at all"],
+      "answer": 1,
+      "explanation": "High PDI means society accepts unequal, hierarchical power distribution; low PDI means flatter organizations where power is shared."
+    },
+    {
+      "q": "In Hofstede's model, Individualism versus Collectivism refers to:",
+      "options": ["How society handles anxiety and uncertainty", "The strength of the ties people have to others within their community", "The distribution of roles between men and women", "Orientation toward past versus future"],
+      "answer": 1,
+      "explanation": "The IDV dimension measures the strength of interpersonal ties — individualist cultures have weak ties beyond the core family, collectivist cultures demand group loyalty."
+    },
+    {
+      "q": "Which Hofstede dimension describes how well people cope with anxiety and the desire to make life predictable and controllable?",
+      "options": ["Power Distance Index", "Uncertainty Avoidance Index", "Masculinity vs Femininity", "Indulgence vs Restraint"],
+      "answer": 1,
+      "explanation": "The Uncertainty Avoidance Index (UAI) describes how people cope with anxiety; high-UAI societies try to make life predictable and rule-bound."
+    },
+    {
+      "q": "The Balance Theory of group formation (Newcomb) states that groups form when:",
+      "options": ["People are geographically close", "Individuals are attracted to one another because of similar/identical attitudes toward common objects or goals", "Rewards exceed the costs of interaction", "Activities, interactions and sentiments interrelate"],
+      "answer": 1,
+      "explanation": "Newcomb's Balance Theory holds that groups form when individuals share similar attitudes toward common objects or goals; Propinquity theory stresses geographical nearness."
+    },
+    {
+      "q": "The relationship expressing a group's actual output is:",
+      "options": ["Group Productivity = Group Potential + Process Gain", "Group Productivity = Group Potential − Process Loss", "Group Productivity = Process Loss − Group Potential", "Group Productivity = Group Potential × Members"],
+      "answer": 1,
+      "explanation": "Group Productivity = Group Potential − Process Loss; process losses (e.g. coordination problems, social loafing) reduce the group's realized output."
+    },
+    {
+      "q": "A 'reference group' is best defined as a group:",
+      "options": ["The individual actually belongs to", "To which an individual would like to belong", "Formed only by direct reporting relationships", "Characterized by large size and no interaction"],
+      "answer": 1,
+      "explanation": "A reference group is one to which a person would like to belong (and whose values they adopt), distinct from a membership group they actually belong to."
+    },
+    {
+      "q": "Benne and Sheats' team MAINTENANCE role of 'Harmonizer' involves:",
+      "options": ["Proposing new ideas and procedures", "Mediating differences between members and relieving tension in conflict, often through humour", "Recording group decisions", "Setting performance standards"],
+      "answer": 1,
+      "explanation": "The Harmonizer (a maintenance role) mediates disagreements and relieves tension; initiating/recording are task roles."
+    },
+    {
+      "q": "Research identifies five dimensions of trust in high-performance teams. Which two are the most critical?",
+      "options": ["Loyalty and openness", "Integrity and competence", "Consistency and loyalty", "Openness and consistency"],
+      "answer": 1,
+      "explanation": "The five trust dimensions are integrity, competence, consistency, loyalty and openness; integrity and competence are the most critical in judging trustworthiness."
+    },
+    {
+      "q": "'Social loafing' on a team refers to the tendency of individuals to:",
+      "options": ["Work harder when watched", "Hide inside a group and coast on the group's effort because individual contributions can't be identified", "Take on extra responsibilities", "Form cliques with friends"],
+      "answer": 1,
+      "explanation": "Social loafing is coasting on group effort because individual contributions aren't identified; high-performing teams counter it with individual and joint accountability."
+    },
+    {
+      "q": "According to the notes, the best (most effective) work teams tend to be:",
+      "options": ["Very large (over 25 people)", "Small — typically fewer than about 10-12 members", "A single person", "Exactly 20 members"],
+      "answer": 1,
+      "explanation": "The best work teams are small (roughly 5-12, under a dozen); larger numbers struggle to develop cohesiveness, commitment and mutual accountability."
+    },
+    {
+      "q": "The word 'communication' derives from the Latin 'communis', meaning:",
+      "options": ["To command", "Common", "To write", "To listen"],
+      "answer": 1,
+      "explanation": "'Communication' comes from the Latin 'communis' (common) — it refers to sharing/making common ideas, facts and understanding."
+    },
+    {
+      "q": "In organizational communication, lateral communication (across chains of command) is carried out by people called:",
+      "options": ["Ombudspersons", "Boundary spanners", "Gatekeepers", "Change agents"],
+      "answer": 1,
+      "explanation": "Those active in lateral communication are 'boundary spanners'; by accumulating information across units they gain power and status."
+    },
+    {
+      "q": "In nonverbal communication, 'proxemics' is the study of:",
+      "options": ["Eye contact", "The measurable physical/personal distance between people as they interact", "The use of time", "Touch"],
+      "answer": 1,
+      "explanation": "Proxemics studies personal space/distance (intimate, personal, social, public); oculesics is eye contact, chronemics is time, haptics is touch."
+    },
+    {
+      "q": "'Kinesics' refers to the interpretation of:",
+      "options": ["Voice pitch and volume", "Body language — facial expressions, gestures and body movement", "Spatial distance", "Physical appearance only"],
+      "answer": 1,
+      "explanation": "Kinesics is body language — facial expressions, gestures and other physical movements that convey meaning."
+    },
+    {
+      "q": "Which communication style stands up for one's own rights while maintaining respect for the rights of others?",
+      "options": ["Passive", "Assertive", "Aggressive", "Submissive"],
+      "answer": 1,
+      "explanation": "Assertive communication stands up for your rights while respecting others'; passive puts others first, aggressive violates others' rights."
+    },
+    {
+      "q": "The upward-communication mechanism originally created in Scandinavia to receive and respond to employee complaints and allegations of injustice is the:",
+      "options": ["Grapevine", "Open-door policy", "Ombudsperson", "Exit interview"],
+      "answer": 2,
+      "explanation": "The ombudsperson, originating in Scandinavia, receives and responds to employee inquiries, complaints and allegations of injustice, resolving issues quickly."
+    },
+    {
+      "q": "Organizational culture is best defined as:",
+      "options": ["The organization's financial statements", "A system of shared assumptions, values and beliefs that signal appropriate and inappropriate behaviour", "The org chart and reporting lines", "The company's product catalogue"],
+      "answer": 1,
+      "explanation": "Organizational culture is a system of shared assumptions, values and beliefs that show members what behaviour is appropriate and inappropriate."
+    },
+    {
+      "q": "In organizational culture, a 'counterculture' is a subgroup whose values:",
+      "options": ["Match the dominant culture exactly", "Are in direct opposition to the dominant culture's values", "Only add to the dominant values", "Are identical across all departments"],
+      "answer": 1,
+      "explanation": "A counterculture's values are in opposition to the dominant culture; a subculture instead shares the core values while adding its own."
+    },
+    {
+      "q": "In Schein's levels of organizational culture, which level is the most visible (behaviour, language, attire, décor)?",
+      "options": ["Basic assumptions", "Espoused values", "Artifacts", "In-use values"],
+      "answer": 2,
+      "explanation": "Artifacts (behaviour, language, architecture, attire, décor) are the highly visible surface level; values are harder to see and basic assumptions are often unconscious."
+    },
+    {
+      "q": "A 'strong' organizational culture is one that:",
+      "options": ["Has little agreement among employees on values", "Is shared — most employees show consensus on and intensely hold the company's values", "Relies on extensive bureaucracy and procedures", "Changes daily"],
+      "answer": 1,
+      "explanation": "A strong culture has values that are widely shared and intensely held (consensus); it can be an asset or liability depending on whether values fit the environment."
+    },
+    {
+      "q": "What is the key difference between organizational culture and organizational climate (per Denison)?",
+      "options": ["They are exactly the same", "Culture is the deep underlying structure (values, beliefs, assumptions); climate is the surface, observable practices/procedures and 'how it feels' to work there", "Climate is permanent; culture is temporary", "Culture applies only to new employees"],
+      "answer": 1,
+      "explanation": "Denison: culture is the underlying structure embedded in values/beliefs/assumptions; climate is reflected in observable practices and is more temporary and perceivable."
+    },
+    {
+      "q": "How do the notes distinguish employee morale from motivation?",
+      "options": ["They are identical", "Morale is a composite of feelings/attitudes/sentiments ('mobilization of sentiments'); motivation moves a person to action ('mobilization of energy')", "Morale moves people to action; motivation is just a feeling", "Motivation is only measurable, morale is not relevant"],
+      "answer": 1,
+      "explanation": "Morale is a composite of feelings/attitudes (mobilization of sentiments), while motivation is the process that moves a person to action (mobilization of energy)."
+    },
+    {
+      "q": "Which is a recognised method for indirectly measuring employee morale?",
+      "options": ["Reading the balance sheet", "Attitude/morale surveys and examining company records (absenteeism, turnover, grievances)", "Counting the number of emails sent", "Measuring office temperature"],
+      "answer": 1,
+      "explanation": "Morale is measured indirectly via observation, attitude/morale surveys, morale indicators (absenteeism, turnover, grievances) and suggestion boxes."
+    },
+    {
+      "q": "Which group-leadership style is 'hands-off' — providing resources then stepping aside, remaining available to help only when the group asks?",
+      "options": ["Autocratic", "Democratic", "Laissez-faire", "Abdicratic"],
+      "answer": 2,
+      "explanation": "The laissez-faire (hands-off) style provides resources and lets members complete tasks with little direct involvement, assisting only when desired."
+    },
+    {
+      "q": "Leadership perspectives generally fall into four main categories. Which is one of them?",
+      "options": ["Financial leadership", "Situational (context-based) leadership", "Mechanical leadership", "Static leadership"],
+      "answer": 1,
+      "explanation": "The four main categories are trait, situational (context-based), functional, and transformational leadership."
+    },
+    {
+      "q": "In Hersey and Blanchard's Situational Leadership model, the 'Telling' (S1) style is best matched to which follower maturity level?",
+      "options": ["M4 (ready, willing, confident)", "M1 (lack skills, knowledge or confidence; need specific direction)", "M3 (willing but lack confidence)", "M2 (motivated but lacking skills)"],
+      "answer": 1,
+      "explanation": "Telling (S1) — giving specific directions — matches M1 followers who lack the skills, knowledge or confidence and need external direction."
+    },
+    {
+      "q": "In Hersey and Blanchard's model, the 'Delegating' (S4) style is characterised by:",
+      "options": ["Telling people exactly what to do", "Focusing on relationships, relying on member expertise, and letting members take responsibility for decisions while monitoring progress", "Selling the message to gain compliance", "Making all decisions alone"],
+      "answer": 1,
+      "explanation": "Delegating (S4) focuses on relationships, relies on members' professional expertise, lets them take responsibility for decisions, and monitors progress — suited to M4."
+    },
+    {
+      "q": "Functional leadership requires the leader to assess and balance which three types of needs?",
+      "options": ["Financial, legal, technical", "Task needs, Team needs and Individual needs", "Short-term, medium-term, long-term", "Power, status, reward"],
+      "answer": 1,
+      "explanation": "Functional leadership assesses Task, Team and Individual needs, devoting time and resources to each in priority order (task completion is highest priority but balanced)."
+    },
+    {
+      "q": "Who first introduced the concept of transformational leadership, describing the dynamic relationship between leader and followers?",
+      "options": ["Bernard Bass", "James MacGregor Burns", "Hersey and Blanchard", "Warren Bennis"],
+      "answer": 1,
+      "explanation": "James MacGregor Burns first introduced transformational leadership; Bernard Bass later added its four key components."
+    },
+    {
+      "q": "Which is one of Bass's four components of transformational leadership?",
+      "options": ["Coercive control", "Inspirational Motivation (communicating a clear, compelling vision)", "Micromanagement", "Laissez-faire detachment"],
+      "answer": 1,
+      "explanation": "Bass's four components are Intellectual Stimulation, Individualized Consideration, Inspirational Motivation and Idealized Influence."
+    },
+    {
+      "q": "An 'emergent' leader is one who:",
+      "options": ["Is designated by an authority regardless of the group's wishes", "Is elected or chosen by the group", "Grows into the leadership role over time, often out of necessity, as the group looks to them", "Has a formal title and corner office"],
+      "answer": 2,
+      "explanation": "An emergent leader grows into the role out of necessity as group members look to them (e.g. the most experienced member), unlike appointed or democratically-elected leaders."
+    },
+    {
+      "q": "The US Navy concept of 'deckplate leadership' means:",
+      "options": ["Leading only from the office via email", "Getting out of the office and onto the deck/where the action is, interacting and learning the real challenges — balancing task and relationship", "Delegating all decisions to subordinates", "Avoiding contact with the team"],
+      "answer": 1,
+      "explanation": "Deckplate leadership means getting out of the office to where the work happens, interacting and learning the real challenges while balancing task and relationship."
+    },
+    {
+      "q": "Ligon, Hunter and Mumford concluded that what makes a leader across contexts is an individual who can:",
+      "options": ["Be born with inherited aristocratic traits", "In the presence of a crisis or challenge, formulate and implement a plan of action based on the context", "Avoid all risk and change", "Always work alone"],
+      "answer": 1,
+      "explanation": "Their research concluded leadership is the ability to effectively formulate and implement a plan of action based on the context, especially in a crisis or challenge."
+    }
+  ]
+}

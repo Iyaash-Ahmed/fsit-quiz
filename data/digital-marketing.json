@@ -1,0 +1,392 @@
+{
+  "id": "digital-marketing",
+  "name": "Digital Marketing",
+  "icon": "📈",
+  "blurb": "Funnel economics, omnichannel, SEO/AEO, social, Meta & Google ads, CRM",
+  "questions": [
+    {
+      "q": "According to Kotler & Armstrong (Unit 1), marketing is the process by which companies:",
+      "options": ["Minimise production costs above all else", "Create value for customers and build strong customer relationships in order to capture value from customers in return", "Sell whatever is produced using aggressive salesmanship", "Only advertise on digital channels"],
+      "answer": 1,
+      "explanation": "The Kotler & Armstrong definition centres on creating value and building relationships to capture value in return."
+    },
+    {
+      "q": "In the evolution of marketing philosophy, which orientation's essence is 'Goods are not bought but sold'?",
+      "options": ["Production Orientation", "Sales Orientation", "Customer Orientation", "Societal Orientation"],
+      "answer": 1,
+      "explanation": "Sales orientation (1930s-1950s) relies on aggressive salesmanship — its essence is 'Goods are not bought but sold.'"
+    },
+    {
+      "q": "The Customer Orientation philosophy's starting point is:",
+      "options": ["The factory / production line", "The existing product catalog", "The customer's needs and wants", "Society and the environment"],
+      "answer": 2,
+      "explanation": "Customer orientation (1950s) starts with the consumer — studying needs/wants before producing, emphasising marketing research."
+    },
+    {
+      "q": "In the traditional 4Ps marketing mix, 'Place' refers to:",
+      "options": ["How the brand communicates with the audience", "What the customer pays", "Where and how the customer accesses/buys the product", "The product's features and quality"],
+      "answer": 2,
+      "explanation": "Place covers where and how customers buy — storefronts, distribution, and today e-commerce and social commerce."
+    },
+    {
+      "q": "The McKinsey Consumer Decision Journey is best described as:",
+      "options": ["A strictly linear funnel from awareness to purchase", "A circular, four-phase loop emphasising continuous evaluation and post-purchase loyalty", "A one-time transaction model", "A pricing framework"],
+      "answer": 1,
+      "explanation": "Unlike the linear funnel, the McKinsey CDJ is circular: Initial Consideration, Active Evaluation, Moment of Purchase, and Post-Purchase (loyalty loop)."
+    },
+    {
+      "q": "Customer Acquisition Cost (CAC) is calculated as:",
+      "options": ["Average revenue per user × gross margin × lifespan", "Total sales & marketing expenses in a period ÷ number of unique customers acquired in that period", "Revenue ÷ ad spend", "Clicks ÷ impressions × 100"],
+      "answer": 1,
+      "explanation": "CAC = total sales & marketing expenses in a period divided by the number of unique customers acquired in that period."
+    },
+    {
+      "q": "What LTV-to-CAC ratio is commonly cited as a healthy digital-industry benchmark?",
+      "options": ["1:1", "3:1", "1:3", "10:1"],
+      "answer": 1,
+      "explanation": "A minimum 3:1 LTV-to-CAC ratio is the general industry standard; 1:1 means losing money after costs, and very high ratios may signal under-spending."
+    },
+    {
+      "q": "In the B2B 'Buying Center', who are the Gatekeepers?",
+      "options": ["Executives who hold the budget", "Assistants who control the flow of information", "The technical staff who influence specs", "The people who will use the product"],
+      "answer": 1,
+      "explanation": "Gatekeepers are assistants who control the flow of information; the Buying Center also includes Users, Influencers, Buyers and Deciders."
+    },
+    {
+      "q": "In the Standard Data Flow architecture, which layer anonymizes IP logs, hashes PII and structures event data before forwarding it?",
+      "options": ["The Client Layer", "The Server Layer", "The Third-Party Platforms layer", "The Browser Layer"],
+      "answer": 1,
+      "explanation": "The Server Layer receives the client event, then processes, validates, anonymizes IPs, hashes PII and forwards structured records to third-party platforms."
+    },
+    {
+      "q": "The AARRR 'Pirate Metrics' framework stands for:",
+      "options": ["Awareness, Attention, Retention, Revenue, Referral", "Acquisition, Activation, Retention, Referral, Revenue", "Acquisition, Advocacy, Reach, Revenue, Return", "Attention, Action, Retention, ROI, Reach"],
+      "answer": 1,
+      "explanation": "AARRR = Acquisition, Activation, Retention, Referral, Revenue — used to measure Product-Led Growth."
+    },
+    {
+      "q": "The critical shift from multichannel to omnichannel is fundamentally about:",
+      "options": ["Simply adding more channels", "Unifying the customer experience across all channels so the customer perceives a single coherent brand", "Removing digital channels", "Focusing only on the highest-performing channel"],
+      "answer": 1,
+      "explanation": "Omnichannel is customer-centric — unifying the experience across channels — whereas multichannel optimises each channel in a silo."
+    },
+    {
+      "q": "In the POEM framework, customer reviews, shares and unsolicited influencer mentions are examples of:",
+      "options": ["Paid Media", "Owned Media", "Earned Media", "Converged Media"],
+      "answer": 2,
+      "explanation": "Earned media is organic, free publicity others create about the brand — reviews, shares, mentions, PR, UGC and backlinks."
+    },
+    {
+      "q": "In Lemon & Verhoef's framework, a customer's own mobile device and how they choose to use a product are examples of:",
+      "options": ["Brand-owned touchpoints", "Partner-owned touchpoints", "Customer-owned touchpoints", "Social/external touchpoints"],
+      "answer": 2,
+      "explanation": "Customer-owned touchpoints have no brand control and are dictated by the user (their device, how they use the product, their connection)."
+    },
+    {
+      "q": "Which of the following is described as a 'vanity metric'?",
+      "options": ["Customer lifetime value", "Cost per acquisition", "Raw social media follower count", "Conversion rate"],
+      "answer": 2,
+      "explanation": "Vanity metrics (follower count, raw page views, impressions) look impressive but don't translate to meaningful business results."
+    },
+    {
+      "q": "In the tiered measurement framework, which are 'Primary Metrics'?",
+      "options": ["Click-through rate and time on site", "Revenue, CAC/CPA, conversion rate and CLV — tied directly to business objectives", "Social sentiment and share of voice", "Brand awareness and community health"],
+      "answer": 1,
+      "explanation": "Primary metrics are directly tied to business objectives: revenue/AOV, acquisition cost, conversion, and retention/CLV."
+    },
+    {
+      "q": "Nike's 2017 strategic pivot, 'Consumer Direct Offense', was fundamentally a move toward:",
+      "options": ["A wholesale-dependent model", "A direct-to-consumer (D2C) architecture", "Abandoning digital channels", "Selling exclusively through Amazon"],
+      "answer": 1,
+      "explanation": "Consumer Direct Offense shifted Nike from a wholesale-dependent model to a direct-to-consumer (D2C) business architecture."
+    },
+    {
+      "q": "Kotler's three criteria for an effective market segment are:",
+      "options": ["Size, profit, location", "Homogeneity, Distinction and Reaction", "Awareness, interest, desire", "Reach, frequency, impact"],
+      "answer": 1,
+      "explanation": "Effective segments show Homogeneity (common needs within), Distinction (unique from others) and Reaction (similar market response)."
+    },
+    {
+      "q": "Dividing a market using 'social class, lifestyle, personality and values' is which segmentation base?",
+      "options": ["Geographic", "Demographic", "Psychographic", "Behavioural"],
+      "answer": 2,
+      "explanation": "Psychographic segmentation uses social class, lifestyle, personality and values; behavioural uses benefits sought, usage and loyalty."
+    },
+    {
+      "q": "How do the notes distinguish predictive modeling from traditional segmentation?",
+      "options": ["Segmentation predicts the future; prediction looks backward", "Segmentation tells you who a customer WAS; predictive modeling tells you what a customer is ABOUT TO DO", "They are identical approaches", "Predictive modeling ignores data"],
+      "answer": 1,
+      "explanation": "Segmentation is descriptive (who customers were); predictive modeling forecasts individual future behaviour (what they'll do next)."
+    },
+    {
+      "q": "Zero-party data is best defined as:",
+      "options": ["Data from third-party cookies", "Data a customer intentionally and proactively shares (preferences, intentions)", "Data bought from a data broker", "Anonymous browsing data observed across sites"],
+      "answer": 1,
+      "explanation": "Zero-party data is intentionally and proactively shared by the customer; first-party data is observed across owned channels."
+    },
+    {
+      "q": "According to the retention economics in Unit 3, acquiring a new customer costs approximately:",
+      "options": ["The same as retaining one", "5x more than retaining an existing customer", "Half as much as retaining one", "10x less than retaining one"],
+      "answer": 1,
+      "explanation": "Industry consensus holds it costs about 5x more to acquire a new customer than to retain an existing one."
+    },
+    {
+      "q": "Research cited (Bain/HBR) states a 5% increase in customer retention can increase profits by:",
+      "options": ["2-5%", "25-95%", "100-200%", "Less than 1%"],
+      "answer": 1,
+      "explanation": "A 5% increase in retention can produce a 25-95% increase in profits, underscoring the value of loyalty."
+    },
+    {
+      "q": "The key principle behind first-party data collection in a cookieless future is:",
+      "options": ["Track as much as possible without consent", "The 'value exchange' — customers share data when they receive tangible utility in return", "Buy third-party data", "Collect data first, provide value never"],
+      "answer": 1,
+      "explanation": "Customers don't give data for free — they exchange it for value, so brands must design collection around utility first."
+    },
+    {
+      "q": "In the SMART goals framework, the 'T' stands for:",
+      "options": ["Targeted", "Tangible", "Time-bound", "Testable"],
+      "answer": 2,
+      "explanation": "SMART = Specific, Measurable, Achievable, Relevant, Time-bound (a clear deadline)."
+    },
+    {
+      "q": "STEEPLE analysis is used to analyse which factors?",
+      "options": ["Internal strengths and weaknesses", "External macro-environmental factors (Social, Technological, Economic, Environmental, Political, Legal, Ethical)", "The 4Ps of the marketing mix", "Sprint velocity"],
+      "answer": 1,
+      "explanation": "STEEPLE examines external macro factors: Social, Technological, Economic, Environmental, Political, Legal and Ethical."
+    },
+    {
+      "q": "Which budget allocation method is described as 'the most logical' because it links spending to outcomes?",
+      "options": ["Affordable Method", "Percentage of Sales", "Competitive Parity", "Objective and Task"],
+      "answer": 3,
+      "explanation": "The Objective and Task method determines objectives, identifies tasks, and costs each — tying budget to outcomes, best suited to agile."
+    },
+    {
+      "q": "The SOSTAC planning framework stands for:",
+      "options": ["Strategy, Objectives, Situation, Tactics, Analysis, Control", "Situation, Objectives, Strategy, Tactics, Action, Control", "Segment, Objective, Social, Tactic, Audit, Convert", "Situation, Opportunity, Strategy, Timing, Action, Cost"],
+      "answer": 1,
+      "explanation": "PR Smith's SOSTAC = Situation analysis, Objectives, Strategy, Tactics, Action, Control."
+    },
+    {
+      "q": "A core value of the Agile Marketing Manifesto is:",
+      "options": ["Following a static plan over responding to change", "Delivering value early and often over waiting for perfection", "Opinions and conventions over experiments and data", "Silos and hierarchy over cross-functional collaboration"],
+      "answer": 1,
+      "explanation": "Agile values include delivering value early and often, learning through experiments over opinions, collaboration over silos, and responding to change."
+    },
+    {
+      "q": "In Spotify's model, a collection of squads working in the same domain is called a:",
+      "options": ["Chapter", "Guild", "Tribe", "Sprint"],
+      "answer": 2,
+      "explanation": "A Tribe is a collection of squads in the same domain; a Chapter is a cross-squad speciality group."
+    },
+    {
+      "q": "A typical Agile marketing sprint is structured around a cycle of:",
+      "options": ["12 months", "2 weeks", "1 day", "6 months"],
+      "answer": 1,
+      "explanation": "Agile marketing breaks quarterly campaigns into two-week sprints with planning, execution, review and retrospective."
+    },
+    {
+      "q": "E-E-A-T, the primary quality signal for AI citation, stands for:",
+      "options": ["Engagement, Efficiency, Attention, Trust", "Experience, Expertise, Authoritativeness, Trustworthiness", "Entity, Evaluation, Authority, Traffic", "Exact, Easy, Accurate, Timely"],
+      "answer": 1,
+      "explanation": "E-E-A-T = Experience, Expertise, Authoritativeness, Trustworthiness — Google's quality signals that drive AI citation."
+    },
+    {
+      "q": "The query 'best organic cat food for kittens' is an example of a:",
+      "options": ["Head keyword", "Long-tail keyword", "Navigational query only", "Branded keyword"],
+      "answer": 1,
+      "explanation": "Long-tail keywords are specific multi-word phrases with lower volume but clearer intent and higher conversion — more useful for AEO."
+    },
+    {
+      "q": "Which search intent does the query 'Buy Salesforce enterprise license' represent?",
+      "options": ["Informational", "Navigational", "Commercial investigation", "Transactional"],
+      "answer": 3,
+      "explanation": "Transactional intent means the user is ready to purchase right now (e.g., 'Buy...')."
+    },
+    {
+      "q": "Which technical element is called 'the single most important' for Answer Engine Optimisation (AEO)?",
+      "options": ["Meta description", "Schema markup (structured data)", "Image file size", "The canonical tag"],
+      "answer": 1,
+      "explanation": "Schema markup explicitly tells AI engines what type of content a page contains, making it far more likely to be cited."
+    },
+    {
+      "q": "Real-Time Bidding (RTB) in programmatic advertising is:",
+      "options": ["A manual negotiation process using insertion orders", "A split-second automated auction for an ad impression that occurs as a page loads", "A fixed monthly ad-buying contract", "A method of writing ad copy"],
+      "answer": 1,
+      "explanation": "RTB is the millisecond auction that powers programmatic ads: a publisher pings an exchange and the highest bidder's ad is served instantly."
+    },
+    {
+      "q": "Under the CPM pricing model, the advertiser pays:",
+      "options": ["Each time a user clicks the ad", "When a specific action/conversion occurs", "Per 1,000 times the ad is displayed, regardless of clicks", "Only when a sale is made"],
+      "answer": 2,
+      "explanation": "CPM (Cost Per Mille) charges per 1,000 impressions regardless of clicks — best for awareness/reach campaigns."
+    },
+    {
+      "q": "A landing page differs from a homepage because the landing page:",
+      "options": ["Offers general navigation to all site areas", "Has a single focused conversion goal with one offer, one message, one CTA", "Contains many links and options", "Is never used with ads"],
+      "answer": 1,
+      "explanation": "A landing page is a standalone page with a single focused conversion purpose — essential for matching ad promises."
+    },
+    {
+      "q": "Who first articulated the attention economy with the idea that 'a wealth of information creates a poverty of attention'?",
+      "options": ["Philip Kotler", "Herbert Simon", "Michael Porter", "Jakob Nielsen"],
+      "answer": 1,
+      "explanation": "Herbert Simon (1971) first articulated the attention economy; Michael Goldhaber (1997) later developed it."
+    },
+    {
+      "q": "On TikTok's For You Page algorithm, which signal is described as the strongest?",
+      "options": ["Likes", "Shares (content shared with others)", "Follower count", "Creator authority"],
+      "answer": 1,
+      "explanation": "Shares are the strongest engagement signal; watch time and completion rate are also very high, while likes and follower count carry less weight."
+    },
+    {
+      "q": "The four stages of a deliberately engineered viral loop are:",
+      "options": ["Awareness, Interest, Desire, Action", "Payload, Incentive, Frictionless Share, Conversion", "Reach, Engagement, Conversion, Loyalty", "Hook, Story, Offer, Close"],
+      "answer": 1,
+      "explanation": "The viral loop = Payload (valuable content), Incentive (reason to share), Frictionless Share, and Conversion (which restarts the cycle)."
+    },
+    {
+      "q": "For the viral coefficient (K-Factor), what does K > 1 indicate?",
+      "options": ["The loop is unsustainable and will die out", "Steady, self-sustaining growth", "True exponential virality", "No growth at all"],
+      "answer": 2,
+      "explanation": "K < 1 is unsustainable, K = 1 is steady/self-sustaining, and K > 1 means true exponential virality."
+    },
+    {
+      "q": "Click-Through Rate (CTR) is calculated as:",
+      "options": ["Conversions ÷ Clicks × 100", "Clicks ÷ Impressions × 100", "Revenue ÷ Ad spend", "Total spend ÷ Conversions"],
+      "answer": 1,
+      "explanation": "CTR = Clicks ÷ Impressions × 100 — it measures how compelling an ad is to those who see it."
+    },
+    {
+      "q": "The IAB/MRC standard defines a 'view' as:",
+      "options": ["Any time an ad is served", "At least 50% of pixels visible for a specified period (usually 1-2 consecutive seconds)", "100% of the ad visible for 10 seconds", "A click on the ad"],
+      "answer": 1,
+      "explanation": "The IAB/MRC viewability standard requires at least 50% of pixels visible for 1-2 consecutive seconds, reflecting actual human attention."
+    },
+    {
+      "q": "Duolingo's TikTok 'unhinged branding' strategy had which primary goal?",
+      "options": ["Directly sell app subscriptions on TikTok", "Earn attention and build brand awareness (installs follow later)", "Post only during business hours", "Produce high-budget polished content"],
+      "answer": 1,
+      "explanation": "Duolingo does not try to sell on TikTok — it earns attention and builds awareness, letting conversions happen later via search and word of mouth."
+    },
+    {
+      "q": "The core principle of Conversion Rate Optimisation (CRO) is that:",
+      "options": ["More traffic always beats better conversion", "Reducing friction to convert more existing traffic is often more effective than increasing ad spend", "Design is purely artistic preference", "Conversion rate cannot be measured"],
+      "answer": 1,
+      "explanation": "CRO treats design as applied cognitive psychology — reducing friction to convert more of existing traffic rather than buying more traffic."
+    },
+    {
+      "q": "Hick's Law states that:",
+      "options": ["Time to reach a target depends on distance and size", "Decision time increases with the number of options/choices", "Working memory holds about 7±2 items", "Items that stand out are remembered best"],
+      "answer": 1,
+      "explanation": "Hick's Law: decision time increases with the number of choices — so designers limit options at each decision point."
+    },
+    {
+      "q": "The CRO process follows which sequence?",
+      "options": ["Launch → Hope → Measure", "Research → Hypothesis → Experiment → Analysis → Implement/Iterate", "Design → Deploy → Done", "Plan → Execute → Review (once a year)"],
+      "answer": 1,
+      "explanation": "The CRO process loops: Research, Hypothesis, Experiment (A/B test), Analysis, then Implement a winner or Iterate."
+    },
+    {
+      "q": "The Japanese philosophy of continuous improvement through small incremental steps, applied in strategic design, is:",
+      "options": ["Kanban", "Kaizen", "Gemba", "Muda"],
+      "answer": 1,
+      "explanation": "Kaizen — continuous improvement through small steps — is step 6 of the strategic design process; a website is never 'finished'."
+    },
+    {
+      "q": "Inbound marketing is best described as:",
+      "options": ["Interruptive and promotion-driven (ads, cold calls)", "Permission-based and content-driven, attracting customers who choose to engage", "Only outbound advertising", "A pricing model"],
+      "answer": 1,
+      "explanation": "Inbound is permission-based and content-driven, earning attention; outbound is interruptive and promotion-driven. Inbound traffic typically converts higher."
+    },
+    {
+      "q": "In the Meta campaign objective framework, 'Conversions' and 'Catalog Sales' belong to which stage?",
+      "options": ["Awareness (top of funnel)", "Consideration (mid funnel)", "Conversion (bottom of funnel)", "Advocacy"],
+      "answer": 2,
+      "explanation": "Conversion objectives (bottom of funnel) include Conversions, Catalog Sales and Store Traffic, and require the Meta Pixel/Conversions API."
+    },
+    {
+      "q": "A Meta 'Lookalike Audience' is:",
+      "options": ["A manually defined audience based on interests and demographics", "An audience uploaded from a customer email list", "A new audience Meta finds by analysing the common characteristics of a source audience", "People who already follow the Page"],
+      "answer": 2,
+      "explanation": "Lookalike Audiences find new users who resemble a source audience (e.g., high-value customers); Core = manual, Custom = from existing data."
+    },
+    {
+      "q": "The Meta Conversions API (CAPI) is important because it:",
+      "options": ["Replaces the need for any creative", "Sends conversion data server-to-server, bypassing browser-based tracking blocked by privacy changes", "Automatically writes ad copy", "Only works for brand awareness"],
+      "answer": 1,
+      "explanation": "The Conversions API sends data directly from the advertiser's server to Meta, bypassing browser restrictions (ITP, ad blockers, ATT) that reduce Pixel data."
+    },
+    {
+      "q": "L'Oréal's AR virtual try-on primarily addresses which barrier to online beauty purchases?",
+      "options": ["Shipping speed", "Colour/fit uncertainty (reducing perceived purchase risk)", "Price comparison", "Payment security"],
+      "answer": 1,
+      "explanation": "AR try-on tackles colour/fit uncertainty — the #1 barrier — and products with AR try-on see 2-3x higher conversion rates."
+    },
+    {
+      "q": "In Google Ads, Ad Rank is calculated (fundamentally) as:",
+      "options": ["Maximum CPC Bid ÷ Quality Score", "Maximum CPC Bid × Quality Score (+ expected impact of extensions)", "Quality Score alone", "Clicks × Impressions"],
+      "answer": 1,
+      "explanation": "Ad Rank = Max CPC Bid × Quality Score (plus expected extension impact), so a higher Quality Score can outrank a bigger budget."
+    },
+    {
+      "q": "GA4's default attribution model is:",
+      "options": ["Last-click", "First-click", "Data-driven attribution (AI-powered)", "Linear"],
+      "answer": 2,
+      "explanation": "GA4 defaults to data-driven attribution (DDA), using machine learning to assign fractional credit across all touchpoints."
+    },
+    {
+      "q": "The key difference of the GA4 data model versus Universal Analytics is that GA4 is:",
+      "options": ["Session-based with last-click attribution", "Event-based — every interaction (pageview, scroll, purchase) is an event", "Cookie-only and client-side", "Limited to desktop web"],
+      "answer": 1,
+      "explanation": "GA4 uses an event-based, user-centric model where every interaction is an event, versus Universal Analytics' session-based hits."
+    },
+    {
+      "q": "Google's Consent Mode v2, when consent is denied, allows GA4 to:",
+      "options": ["Collect full data as normal", "Send only cookieless pings and use behavioural modeling to estimate ~85%+ of conversions", "Stop all measurement entirely", "Ignore the user's choice"],
+      "answer": 1,
+      "explanation": "With consent denied, Consent Mode sends minimal cookieless pings and GA4 models conversions, recovering roughly 85%+ of actual conversions."
+    },
+    {
+      "q": "Patagonia's ethical data approach is characterised by:",
+      "options": ["Aggressive third-party tracking", "Collecting only what's needed, transparency, first-party focus and clean-room measurement", "Buying customer lists", "Avoiding all measurement"],
+      "answer": 1,
+      "explanation": "Patagonia minimises collection, is transparent, uses value exchange, prioritises first-party data and clean rooms — achieving above-average consent rates."
+    },
+    {
+      "q": "The five stages of the customer lifecycle (Unit 10) are:",
+      "options": ["Awareness, Consideration, Conversion, Retention, Advocacy", "Attention, Interest, Desire, Action, Loyalty", "Acquire, Activate, Retain, Refer, Revenue", "Reach, Act, Convert, Engage, Measure"],
+      "answer": 0,
+      "explanation": "Lifecycle marketing manages Awareness, Consideration, Conversion, Retention and Advocacy, each with distinct content and triggers."
+    },
+    {
+      "q": "A parasocial relationship is:",
+      "options": ["A two-way partnership between two brands", "A one-sided psychological bond where an audience member feels a personal connection with a creator or media figure", "A paid influencer contract", "A type of email automation"],
+      "answer": 1,
+      "explanation": "A parasocial relationship is a one-sided bond; the trust built with a creator transfers to the products they recommend."
+    },
+    {
+      "q": "Which email type is 'triggered by subscriber actions on-site', such as receipts and shipping updates?",
+      "options": ["Promotional", "Relational", "Transactional", "Reactivation"],
+      "answer": 2,
+      "explanation": "Transactional emails are triggered by actions — signup confirmations, receipts, shipping updates, password resets."
+    },
+    {
+      "q": "The 4 Ps email copywriting framework is:",
+      "options": ["Product, Price, Place, Promotion", "Promise, Paint, Proof, Push", "Plan, Produce, Publish, Promote", "People, Process, Physical, Performance"],
+      "answer": 1,
+      "explanation": "The 4 Ps copywriting technique moves readers from attention to action: Promise, Paint (the outcome), Proof, Push (the CTA)."
+    },
+    {
+      "q": "MrBeast's 'parasocial commerce flywheel' works because:",
+      "options": ["He relies solely on YouTube AdSense", "Product revenue (Feastables, etc.) funds bigger content, which attracts more viewers and accelerates the flywheel", "He avoids A/B testing titles and thumbnails", "His products are unrelated to his content"],
+      "answer": 1,
+      "explanation": "Free content builds parasocial trust; product revenue funds bigger content, drawing more viewers — a self-reinforcing reinvestment loop."
+    },
+    {
+      "q": "Why does email endure as one of the highest-ROI marketing channels (per the DMA figure cited)?",
+      "options": ["It is free to send unlimited emails", "It is action-forcing, cost-effective and measurable, historically returning roughly $38-44 per $1 spent", "It requires no permission or list building", "It cannot be tracked or tested"],
+      "answer": 1,
+      "explanation": "Email is action-forcing, cost-effective, relationship-building, segmentable, measurable and testable — historically ~$38-44 return per $1."
+    }
+  ]
+}

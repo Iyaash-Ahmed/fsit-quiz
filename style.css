@@ -1,0 +1,205 @@
+/* ===== FSIT 2026 Quiz — theme-aware, responsive ===== */
+:root {
+  --bg: #f4f6fb;
+  --bg-elev: #ffffff;
+  --text: #1a2233;
+  --text-soft: #5a6477;
+  --border: #e2e7f0;
+  --primary: #3b5bdb;
+  --primary-ink: #ffffff;
+  --accent: #6741d9;
+  --correct: #2f9e44;
+  --correct-bg: #e7f6ec;
+  --wrong: #e03131;
+  --wrong-bg: #fdecec;
+  --shadow: 0 4px 20px rgba(23, 37, 84, 0.08);
+  --radius: 16px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1420;
+    --bg-elev: #19202e;
+    --text: #e8ecf5;
+    --text-soft: #9aa6bd;
+    --border: #2a3345;
+    --primary: #5c7cfa;
+    --primary-ink: #0b1020;
+    --accent: #9775fa;
+    --correct: #51cf66;
+    --correct-bg: #10281a;
+    --wrong: #ff6b6b;
+    --wrong-bg: #2a1518;
+    --shadow: 0 6px 26px rgba(0, 0, 0, 0.45);
+  }
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 16px 64px;
+}
+
+.brand {
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--text);
+  padding: 18px 4px 10px;
+  font-size: 1.05rem;
+}
+
+.view { max-width: 820px; margin: 0 auto; }
+
+/* ===== Home ===== */
+.home-head { text-align: center; margin: 18px 0 30px; }
+.home-head h1 { font-size: clamp(1.7rem, 5vw, 2.6rem); margin: 0 0 10px; letter-spacing: -0.02em; }
+.home-head .sub { color: var(--text-soft); max-width: 620px; margin: 0 auto; font-size: 1.02rem; }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+.card {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px 22px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: inherit;
+  width: 100%;
+  font: inherit;
+}
+.card:hover, .card:focus-visible {
+  transform: translateY(-4px);
+  border-color: var(--primary);
+  outline: none;
+}
+.card .icon { font-size: 2.4rem; line-height: 1; }
+.card h2 { margin: 6px 0 0; font-size: 1.22rem; }
+.card .blurb { color: var(--text-soft); font-size: .92rem; margin: 0; flex: 1; }
+.card .meta { display: flex; justify-content: space-between; align-items: center; margin-top: 10px; font-size: .82rem; color: var(--text-soft); }
+.card .count-badge { background: color-mix(in srgb, var(--primary) 14%, transparent); color: var(--primary); padding: 3px 10px; border-radius: 999px; font-weight: 600; }
+.card .best { font-weight: 600; }
+
+.home-foot { text-align: center; color: var(--text-soft); margin-top: 36px; font-size: .9rem; }
+
+/* ===== Quiz ===== */
+.quiz-top {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; margin: 10px 0 18px;
+}
+.quiz-subject { font-weight: 700; text-align: center; flex: 1; font-size: 1.02rem; }
+.timer {
+  font-variant-numeric: tabular-nums;
+  background: var(--bg-elev); border: 1px solid var(--border);
+  padding: 4px 12px; border-radius: 999px; font-weight: 600; font-size: .9rem; min-width: 64px; text-align: center;
+}
+.link-btn {
+  background: none; border: none; color: var(--text-soft); cursor: pointer;
+  font: inherit; padding: 4px 6px; border-radius: 8px;
+}
+.link-btn:hover { color: var(--primary); }
+
+.progress-wrap { margin-bottom: 18px; }
+.progress-bar { height: 8px; background: var(--border); border-radius: 999px; overflow: hidden; }
+.progress-fill { height: 100%; width: 0; background: linear-gradient(90deg, var(--primary), var(--accent)); border-radius: 999px; transition: width .35s ease; }
+.progress-meta { display: flex; justify-content: space-between; margin-top: 8px; font-size: .9rem; color: var(--text-soft); }
+.score { font-weight: 700; color: var(--text); }
+
+.qcard {
+  background: var(--bg-elev); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 26px 22px; box-shadow: var(--shadow);
+}
+.question { font-size: clamp(1.1rem, 2.6vw, 1.4rem); margin: 0 0 20px; line-height: 1.4; }
+
+.options { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.option {
+  width: 100%; text-align: left; font: inherit; color: inherit;
+  background: var(--bg); border: 1.5px solid var(--border); border-radius: 12px;
+  padding: 14px 16px; cursor: pointer; display: flex; gap: 12px; align-items: flex-start;
+  transition: border-color .12s ease, background .12s ease, transform .08s ease;
+}
+.option:hover:not(:disabled) { border-color: var(--primary); }
+.option:active:not(:disabled) { transform: scale(.995); }
+.option:disabled { cursor: default; }
+.option .key {
+  flex: 0 0 auto; width: 26px; height: 26px; border-radius: 7px;
+  display: grid; place-items: center; font-weight: 700; font-size: .85rem;
+  background: color-mix(in srgb, var(--primary) 12%, transparent); color: var(--primary);
+}
+.option .label { flex: 1; }
+.option.correct { border-color: var(--correct); background: var(--correct-bg); }
+.option.correct .key { background: var(--correct); color: #fff; }
+.option.wrong { border-color: var(--wrong); background: var(--wrong-bg); }
+.option.wrong .key { background: var(--wrong); color: #fff; }
+.option .mark { margin-left: auto; font-weight: 700; }
+.option.correct .mark { color: var(--correct); }
+.option.wrong .mark { color: var(--wrong); }
+
+.explain {
+  margin-top: 18px; padding: 14px 16px; border-radius: 12px;
+  background: var(--bg); border: 1px solid var(--border);
+}
+.explain-label { font-weight: 700; display: block; margin-bottom: 4px; }
+.explain-label.ok { color: var(--correct); }
+.explain-label.no { color: var(--wrong); }
+.explain p { margin: 0; color: var(--text-soft); }
+
+.quiz-actions { display: flex; justify-content: flex-end; margin-top: 20px; }
+
+/* ===== Buttons ===== */
+.btn {
+  font: inherit; font-weight: 600; cursor: pointer;
+  border-radius: 12px; padding: 12px 26px; border: 1.5px solid transparent;
+  transition: transform .08s ease, opacity .15s ease, background .15s ease;
+}
+.btn:active { transform: scale(.97); }
+.btn.primary { background: var(--primary); color: var(--primary-ink); }
+.btn.primary:hover { opacity: .92; }
+.btn.ghost { background: transparent; color: var(--text); border-color: var(--border); }
+.btn.ghost:hover { border-color: var(--primary); color: var(--primary); }
+
+/* ===== Result ===== */
+.result-card {
+  background: var(--bg-elev); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 34px 26px; box-shadow: var(--shadow); text-align: center;
+  margin-top: 16px;
+}
+.result-emoji { font-size: 3.4rem; }
+.result-card h1 { margin: 6px 0 16px; font-size: 1.6rem; }
+.result-score { display: flex; flex-direction: column; align-items: center; gap: 2px; margin-bottom: 14px; }
+.result-score .big { font-size: 2.4rem; font-weight: 800; }
+.result-score .pct { font-size: 1.1rem; color: var(--text-soft); font-weight: 600; }
+.result-meta { display: flex; flex-wrap: wrap; gap: 8px 18px; justify-content: center; color: var(--text-soft); font-size: .92rem; margin-bottom: 22px; }
+.result-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 10px; }
+
+.review { text-align: left; margin-top: 26px; }
+.review h3 { font-size: 1.1rem; border-top: 1px solid var(--border); padding-top: 20px; }
+.review-item {
+  border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; margin-bottom: 12px; background: var(--bg);
+}
+.review-item .rq { font-weight: 600; margin: 0 0 8px; }
+.review-item .ra { margin: 2px 0; font-size: .92rem; }
+.review-item .ra.you { color: var(--wrong); }
+.review-item .ra.right { color: var(--correct); }
+.review-item .rex { margin: 8px 0 0; font-size: .88rem; color: var(--text-soft); }
+.all-correct { text-align: center; color: var(--correct); font-weight: 600; }
+
+@media (max-width: 480px) {
+  .qcard { padding: 20px 16px; }
+  .result-card { padding: 26px 16px; }
+  .btn { width: 100%; }
+  .result-actions { flex-direction: column; }
+}
